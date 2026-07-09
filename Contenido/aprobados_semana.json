@@ -1,0 +1,57 @@
+{
+  "semana": "aprobada",
+  "ritmo": "2 piezas/día, lun–vie",
+  "nota": "Textos aprobados por Salo. Cada pieza = carrusel bilingüe (EN slide + ES slide), mismo fondo.",
+  "piezas": [
+    {
+      "dia": "Lunes", "pieza": 1, "pilar": "Inmigración & Visas",
+      "en": {"titulo": "Plan beyond the Colombian visa", "subtitulo": "Today's visa choice shapes your path to residency.", "copy": "A visa gets you in, but what happens next? The category you choose today determines how soon you can renew, work, or apply for permanent Residency. We plan the full journey, not just the first step.\n\nThink long term, message us on WhatsApp."},
+      "es": {"titulo": "Planea más allá de la visa Colombiana", "subtitulo": "La visa que eliges hoy define tu camino a la Residencia.", "copy": "Una visa te deja entrar, ¿pero qué sigue después? La categoría que eliges hoy define qué tan pronto puedes renovar, trabajar o pedir Residencia permanente. Planeamos todo el camino, no solo el primer paso.\n\nPiensa a largo plazo, escríbenos por WhatsApp."}
+    },
+    {
+      "dia": "Lunes", "pieza": 2, "pilar": "Inversión inmobiliaria",
+      "en": {"titulo": "Owning here is possible", "subtitulo": "Foreigners can buy a property in Colombia with the right guidance.", "copy": "Many foreigners assume buying property in Colombia is off-limits. It isn't, but doing it safely requires the right legal steps.\n\nWe guide you through ownership from start to title. Make it yours, talk to us on WhatsApp."},
+      "es": {"titulo": "Ser dueño aquí es posible", "subtitulo": "Los extranjeros pueden comprar propiedades en Colombia con la guía correcta.", "copy": "Muchos extranjeros creen que comprar propiedad en Colombia no es para ellos. Sí lo es, pero hacerlo seguro requiere los pasos legales correctos.\n\nTe guiamos desde la compra hasta el título. Hazla tuya, escríbenos por WhatsApp."}
+    },
+    {
+      "dia": "Martes", "pieza": 1, "pilar": "Impuestos & Contabilidad",
+      "en": {"titulo": "Know if you're a Tax Resident in Colombia", "subtitulo": "Enough days here can change your tax status.", "copy": "Spend enough time in Colombia and you may become a tax resident, often without realizing it. We help you understand your status before it becomes a problem.\n\nKnow where you stand, message us on WhatsApp."},
+      "es": {"titulo": "Descubre si eres Residente Fiscal en Colombia", "subtitulo": "Suficientes días aquí pueden cambiar tu situación fiscal.", "copy": "Si pasas suficiente tiempo en Colombia puedes volverte residente fiscal, muchas veces sin notarlo. Te ayudamos a entender tu situación antes de que sea un problema.\n\nTen claridad, escríbenos por WhatsApp."}
+    },
+    {
+      "dia": "Martes", "pieza": 2, "pilar": "Estructura legal",
+      "en": {"titulo": "The right company type in Colombia", "subtitulo": "The entity you choose changes your taxes and liability.", "copy": "SAS, branch, or something else? The type of company you register shapes your taxes, your liability and how you grow.\n\nThe right choice saves you headaches for years. We help you pick well from the start. Build it right, write to us on WhatsApp."},
+      "es": {"titulo": "El tipo de empresa correcto en Colombia", "subtitulo": "La figura que eliges cambia tus impuestos y tu responsabilidad.", "copy": "¿SAS, sucursal u otra figura? El tipo de empresa que registras define tus impuestos, tu responsabilidad y cómo creces.\n\nLa elección correcta te ahorra dolores de cabeza por años. Te ayudamos a elegir bien desde el inicio. Constrúyelo bien, escríbenos por WhatsApp."}
+    },
+    {
+      "dia": "Miércoles", "pieza": 1, "pilar": "Inmigración & Visas",
+      "en": {"titulo": "Come to Colombia with your family", "subtitulo": "Your visa can cover the people who matter most.", "copy": "Your move to Colombia doesn't have to leave anyone behind. The right visa strategy can include your spouse and children, keeping your family together and legal. We make sure no one is left out.\n\nKeep them close, message us on WhatsApp."},
+      "es": {"titulo": "Ven a Colombia con tu familia", "subtitulo": "Tu visa puede cubrir a quienes más te importan.", "copy": "Tu llegada a Colombia no tiene que dejar a nadie atrás. La estrategia de visa correcta puede incluir a tu pareja e hijos, manteniendo a tu familia unida y en regla. Nos aseguramos de que nadie quede por fuera.\n\nMantenlos cerca, escríbenos por WhatsApp."}
+    },
+    {
+      "dia": "Miércoles", "pieza": 2, "pilar": "Contabilidad",
+      "en": {"titulo": "Hiring in Colombia comes with rules", "subtitulo": "Labor compliance protects you from costly claims.", "copy": "Hiring your first employee in Colombia comes with obligations many overlook, and labor claims are expensive.\n\nWe set up your contracts and payroll right, so growth never turns into liability. Hire with confidence, talk to us on WhatsApp."},
+      "es": {"titulo": "Contratar en Colombia tiene reglas", "subtitulo": "El cumplimiento laboral te protege de demandas caras.", "copy": "Contratar a tu primer empleado en Colombia trae obligaciones que muchos pasan por alto, y las demandas laborales salen caras.\n\nDejamos tus contratos y nómina en regla, para que crecer nunca se vuelva un riesgo. Contrata con confianza, escríbenos por WhatsApp."}
+    },
+    {
+      "dia": "Jueves", "pieza": 1, "pilar": "Inversión inmobiliaria",
+      "en": {"titulo": "Rent it out, legally in Colombia", "subtitulo": "Earning from your property has legal and tax steps.", "copy": "Renting out your Colombian property can be a smart income source, but it comes with tax and legal duties. Skip them and the fines follow.\n\nWe keep your rental income clean and compliant. Earn with peace of mind, message us on WhatsApp."},
+      "es": {"titulo": "Renta sin riesgos en Colombia", "subtitulo": "Ganar con tu propiedad tiene pasos legales y fiscales.", "copy": "Rentar tu propiedad en Colombia puede ser una gran fuente de ingresos, pero trae obligaciones fiscales y legales. Si las ignoras, llegan las multas.\n\nMantenemos tu renta limpia y en regla. Gana con tranquilidad, escríbenos por WhatsApp."}
+    },
+    {
+      "dia": "Jueves", "pieza": 2, "pilar": "Marca / autoridad",
+      "en": {"titulo": "Two strengths, one partner in Colombia", "subtitulo": "Legal and accounting under one roof keeps you protected.", "copy": "Legal questions and accounting questions rarely come separately. That's why we handle both under one roof, so nothing falls through the cracks.\n\nOne partner, fully aligned with your goals. Get complete support, write to us on WhatsApp."},
+      "es": {"titulo": "Dos fuerzas, un aliado en Colombia", "subtitulo": "Seguridad legal y contable bajo un mismo techo te mantiene protegido.", "copy": "Las dudas legales y las contables casi nunca vienen por separado. Por eso manejamos ambas bajo un mismo techo, para que nada se escape.\n\nUn solo aliado, alineado con tus metas. Recibe apoyo completo, escríbenos por WhatsApp."}
+    },
+    {
+      "dia": "Viernes", "pieza": 1, "pilar": "Impuestos & Contabilidad",
+      "en": {"titulo": "Deadlines in Colombia don't wait", "subtitulo": "A missed tax date can cost more than the tax itself.", "copy": "In taxes, a missed date can cost more than the tax itself, penalties and interest add up fast.\n\nWe track every deadline so you never pay extra for being late. Stay ahead of the calendar, message us on WhatsApp."},
+      "es": {"titulo": "Los plazos en Colombia no esperan", "subtitulo": "Una fecha vencida puede costar más que el impuesto.", "copy": "En impuestos, una fecha vencida puede costar más que el impuesto mismo, sanciones e intereses se acumulan rápido.\n\nVigilamos cada plazo para que nunca pagues de más por demorarte. Adelántate al calendario, escríbenos por WhatsApp."}
+    },
+    {
+      "dia": "Viernes", "pieza": 2, "pilar": "Inmigración & Visas",
+      "en": {"titulo": "Renew before it's late", "subtitulo": "Letting your Colombian visa lapse can undo years of progress.", "copy": "Letting your visa lapse can undo years of progress and restarting is rarely simple. Renewing on time protects everything you've built here.\n\nWe track your dates and handle the process. Don't risk it, message us on WhatsApp."},
+      "es": {"titulo": "Renueva a tiempo", "subtitulo": "Dejar vencer tu visa Colombiana puede borrar años de progreso.", "copy": "Dejar vencer tu visa puede borrar años de progreso y volver a empezar casi nunca es simple. Renovar a tiempo protege todo lo que has construido aquí.\n\nVigilamos tus fechas y manejamos el proceso. No te arriesgues, escríbenos por WhatsApp."}
+    }
+  ]
+}

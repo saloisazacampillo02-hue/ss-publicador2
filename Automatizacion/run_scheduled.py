@@ -50,7 +50,7 @@ def main():
         return
     try:
         env = mp.load_env(mp.ENV)
-        data = json.load(open(mp.APROB))
+        data = json.load(open(mp.APROB)) if mp.APROB.exists() else None
         sched = json.load(open(SCHED))
         now = datetime.datetime.now()
         changed = False
@@ -78,7 +78,7 @@ def main():
                     save(sched)          # guardar TRAS CADA pieza (evita duplicados)
                     changed = True
                     log(f"✅ OK {nombre}")
-                except Exception as e:
+                except (Exception, SystemExit) as e:
                     log(f"❌ ERROR {nombre}: {e}")
         if not changed:
             log("Sin piezas pendientes vencidas.")
