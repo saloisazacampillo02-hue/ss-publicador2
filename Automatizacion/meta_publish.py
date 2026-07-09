@@ -82,8 +82,15 @@ def _up_0x0(rq, path):
     r.raise_for_status(); return r.text.strip()
 
 def upload_public(img_path):
-    """Sube la imagen a un host público. Prueba varios hosts en orden (con reintentos)
-    para no depender de uno solo: litterbox -> catbox -> 0x0.st."""
+    """Devuelve una URL pública de la imagen.
+    En la nube (GitHub Actions, repo público) usa la URL raw de GitHub — 100% confiable,
+    sin depender de hosts externos. En local, sube a un host público (litterbox/catbox/0x0)."""
+    ws = os.environ.get("GITHUB_WORKSPACE"); repo = os.environ.get("GITHUB_REPOSITORY")
+    ref = os.environ.get("GITHUB_REF_NAME", "main")
+    if ws and repo:
+        import urllib.parse
+        rel = os.path.relpath(str(img_path), ws).replace(os.sep, "/")
+        return f"https://raw.githubusercontent.com/{repo}/{ref}/" + urllib.parse.quote(rel)
     try:
         import requests
     except ImportError:
