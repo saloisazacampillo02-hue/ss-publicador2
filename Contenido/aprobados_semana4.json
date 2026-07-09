@@ -1,0 +1,51 @@
+{
+  "semana": "4 (6-10 jul; mixta: expat bilingüe + local español)",
+  "nota": "lang 'bi' = carrusel EN+ES; lang 'es' = post de 1 imagen en español. p8 cambiada a Visa de trabajo (bilingüe) por corrección de Salo.",
+  "piezas": [
+    {
+      "key": "p1", "pilar": "Visas", "lang": "bi",
+      "en": {"titulo": "Invest in Colombia, get your visa", "subtitulo": "Investing here can open your path to residency.", "copy": "Investing in Colombia in property or a company can open your path to a visa. But the amount, the structure and the paperwork have to be right. We set it up so your investment counts. Start today, message us on WhatsApp."},
+      "es": {"titulo": "Invierte en Colombia y obtén tu visa", "subtitulo": "Invertir aquí puede abrirte el camino a la residencia.", "copy": "Invertir en Colombia, en propiedad o en una empresa, puede abrirte el camino a una visa. Pero el monto, la estructura y los papeles deben estar bien. Lo montamos para que tu inversión cuente. Empieza hoy, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p2", "pilar": "Derecho laboral", "lang": "es",
+      "es": {"titulo": "Tus vacaciones no se pierden", "subtitulo": "Son un derecho, y en la mayoría de casos no se pagan en dinero.", "copy": "Las vacaciones son un derecho irrenunciable: 15 días hábiles por año trabajado. Tu empleador no puede negártelas indefinidamente y, salvo excepciones, deben disfrutarse, no cambiarse por dinero. Si no te las dan, puedes reclamar. Conoce tus derechos, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p3", "pilar": "Centrales de riesgo", "lang": "es",
+      "es": {"titulo": "¿Te reportaron una deuda que no es tuya?", "subtitulo": "La suplantación o el error se pueden corregir.", "copy": "A veces aparece un reporte por una deuda que nunca adquiriste: suplantación, error o un crédito mal asignado. No tienes por qué cargar con eso. Se puede exigir la corrección y la eliminación del reporte. Defendemos tu habeas data, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p4", "pilar": "Inversión inmobiliaria", "lang": "bi",
+      "en": {"titulo": "Buying off-plan in Colombia?", "subtitulo": "The lowest price can carry the highest risk.", "copy": "Buying property off-plan can be a great deal or a costly trap if the builder, the contract or the permits aren't solid. Reviewing it before you sign protects your money. Buy with confidence, message us on WhatsApp."},
+      "es": {"titulo": "¿Vas a comprar sobre planos?", "subtitulo": "El precio más bajo puede traer el mayor riesgo.", "copy": "Comprar sobre planos puede ser un gran negocio, o una trampa costosa si el constructor, el contrato o las licencias no son sólidos. Revisarlo antes de firmar protege tu dinero. Compra con seguridad, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p5", "pilar": "Derecho laboral", "lang": "es",
+      "es": {"titulo": "La licencia de maternidad es intocable", "subtitulo": "Está protegida por ley y no se puede recortar.", "copy": "La licencia de maternidad es un derecho protegido: son 18 semanas remuneradas, y durante el embarazo y la licencia existe estabilidad reforzada, no te pueden despedir sin autorización. Si se vulneró tu derecho, puedes reclamar. Te acompañamos, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p6", "pilar": "Impuestos", "lang": "es",
+      "es": {"titulo": "¿Debes declarar renta este año?", "subtitulo": "No declarar a tiempo genera sanciones.", "copy": "No todos deben declarar renta, pero si superaste ciertos topes de ingresos, patrimonio o consumos, sí. Declarar tarde o no hacerlo genera sanciones que crecen con el tiempo. Revisamos tu caso y lo dejamos al día. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p7", "pilar": "Estructura legal", "lang": "bi",
+      "en": {"titulo": "The SAS: set up smart in Colombia", "subtitulo": "The most flexible way for a foreigner to do business here.", "copy": "The SAS is the most popular company type in Colombia for a reason: flexible, quick to create, and it limits your personal liability. Set up right, it's the smart base for doing business here. We build it correctly from day one. Message us on WhatsApp."},
+      "es": {"titulo": "La SAS: monta tu empresa bien", "subtitulo": "La forma más flexible de hacer negocios en Colombia.", "copy": "La SAS es el tipo de empresa más usado en Colombia por algo: flexible, rápida de crear y protege tu patrimonio personal. Bien montada, es la base inteligente para hacer negocios aquí. La constituimos bien desde el día uno. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p8", "pilar": "Visas", "lang": "bi",
+      "en": {"titulo": "Work legally in Colombia", "subtitulo": "A job offer here can become your work visa.", "copy": "Got a job offer from a Colombian company? You may qualify for a work (Migrant) visa. Filed correctly, it lets you live and work here legally and can count toward residency. We handle the whole process. Message us on WhatsApp."},
+      "es": {"titulo": "Trabaja legalmente en Colombia", "subtitulo": "Una oferta laboral aquí puede ser tu visa de trabajo.", "copy": "¿Tienes una oferta de una empresa colombiana? Podrías calificar para una visa de trabajo (Migrante). Bien tramitada, te permite vivir y trabajar aquí legalmente y puede sumar para la residencia. Manejamos el proceso completo. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p9", "pilar": "Visas", "lang": "bi",
+      "en": {"titulo": "Don't let your visa expire", "subtitulo": "A lapse can send you back to square one.", "copy": "Letting your Colombian visa expire can cost you more than a fine it can interrupt your path to residency and force you to start over. Renewing on time keeps your status safe. We track it for you. Message us on WhatsApp."},
+      "es": {"titulo": "No dejes vencer tu visa", "subtitulo": "Un vencimiento puede devolverte al punto de partida.", "copy": "Dejar vencer tu visa colombiana puede costarte más que una multa: puede interrumpir tu camino a la residencia y obligarte a empezar de nuevo. Renovar a tiempo protege tu estatus. Lo controlamos por ti. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p10", "pilar": "Contabilidad", "lang": "es",
+      "es": {"titulo": "¿Facturas como persona natural?", "subtitulo": "Podrías estar pagando más impuestos de lo necesario.", "copy": "Muchos independientes facturan como persona natural sin saber que, según sus ingresos, una estructura distinta podría reducir su carga tributaria de forma legal. Revisar cómo tributas puede ahorrarte dinero. Te asesoramos, escríbenos por WhatsApp."}
+    }
+  ]
+}

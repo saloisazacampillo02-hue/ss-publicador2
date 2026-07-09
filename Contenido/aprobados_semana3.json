@@ -1,0 +1,50 @@
+{
+  "semana": "3 (29 jun - 3 jul; mixta: expat bilingüe + local español)",
+  "nota": "lang 'bi' = carrusel EN+ES; lang 'es' = post de 1 imagen en español. Textos aprobados por Salo en panel editable.",
+  "piezas": [
+    {
+      "key": "p1", "pilar": "Derecho laboral", "lang": "es",
+      "es": {"titulo": "La ley cambió. ¿Tu reglamento interno también?", "subtitulo": "Tu reglamento interno ya está desactualizado", "copy": "¿Cuándo actualizaste por última vez tu Reglamento Interno de Trabajo? La normatividad cambió y hoy debe incluir la política de prevención del acoso sexual laboral, el protocolo frente al acoso laboral y la desconexión laboral. Tenerlo desactualizado expone a tu empresa a sanciones evitables. Lo revisamos y lo dejamos al día. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p2", "pilar": "Visas", "lang": "bi",
+      "en": {"titulo": "Marriage Colombian visa, done right", "subtitulo": "Marrying a Colombian opens a path, if you file it correctly.", "copy": "Marrying a Colombian can open your path to residency, but only if the visa is filed correctly. Small mistakes in documents or timing cause delays and denials. We handle the whole process so it's smooth and secure. Start your application, message us on WhatsApp."},
+      "es": {"titulo": "Visa Colombiana por matrimonio, bien hecha", "subtitulo": "Casarte con un colombiano te abre camino, si lo haces bien.", "copy": "Casarte con una persona colombiana puede abrirte el camino a la residencia, pero solo si la visa se tramita bien. Errores pequeños en documentos o tiempos causan demoras y negaciones. Lo manejamos completo, tranquilo y seguro. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p3", "pilar": "Derecho laboral", "lang": "es",
+      "es": {"titulo": "No todo conflicto es acoso laboral", "subtitulo": "La ley define qué sí lo es, y cómo probarlo.", "copy": "No todo problema con tu jefe o tus compañeros es acoso laboral. La Ley 1010 de 2006 define conductas específicas (maltrato, persecución, discriminación) y exige pruebas. Saber si tu caso califica es el primer paso para defenderte bien. Revisamos tu situación y te decimos qué procede. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p4", "pilar": "Inversión inmobiliaria", "lang": "bi",
+      "en": {"titulo": "Buy property safely in Colombia", "subtitulo": "The cheapest deal can cost you the most. Due diligence protects you.", "copy": "The cheapest property deal can become the most expensive mistake. Title problems, liens or informal paperwork can cost you the whole investment. Proper due diligence before you sign protects your money. Buy with confidence, message us on WhatsApp."},
+      "es": {"titulo": "Compra tu propiedad sin riesgos", "subtitulo": "El negocio más barato puede salir caro. La debida diligencia te protege.", "copy": "El negocio inmobiliario más barato puede volverse el error más caro. Problemas de tradición, embargos o papeles informales pueden costarte toda la inversión. La debida diligencia antes de firmar protege tu dinero. Compra con seguridad, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p5", "pilar": "Derecho laboral", "lang": "es",
+      "es": {"titulo": "Tienes derecho a desconectarte", "subtitulo": "Fuera del horario, tu tiempo es tuyo. Lo dice la ley.", "copy": "Fuera de tu jornada, tu tiempo es tuyo. La Ley 2191 de 2022 garantiza tu derecho a la desconexión laboral: tu empleador no puede exigirte estar disponible durante tu descanso. Si no se respeta, puede constituir acoso laboral. Conoce y haz valer tus derechos. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p6", "pilar": "Centrales de riesgo", "lang": "es",
+      "es": {"titulo": "¿Tu reporte tiene información errada?", "subtitulo": "Puedes exigir que lo corrijan. Es tu habeas data.", "copy": "Un reporte con información errada también se puede corregir. Si los datos sobre tu deuda están equivocados o desactualizados, tienes derecho a exigir su corrección: es tu habeas data. No cargues con un reporte mal hecho. Te ayudamos a corregirlo bien. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p7", "pilar": "Visas", "lang": "bi",
+      "en": {"titulo": "Work remotely from Colombia, legally", "subtitulo": "The digital nomad visa lets you live here while you work online.", "copy": "You can live in Colombia while you work online legally. The digital nomad visa is made for remote workers and freelancers with foreign income. Set it up right and enjoy the country without immigration worries. Message us on WhatsApp to start."},
+      "es": {"titulo": "Trabaja remoto desde Colombia, legal", "subtitulo": "La visa de nómada digital te deja vivir aquí mientras trabajas online.", "copy": "Puedes vivir en Colombia mientras trabajas online, de forma legal. La visa de nómada digital está hecha para trabajadores remotos y freelancers con ingresos del exterior. Bien tramitada, disfrutas el país sin preocupaciones migratorias. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p8", "pilar": "Derecho laboral", "lang": "es",
+      "es": {"titulo": "El periodo de prueba tiene límites", "subtitulo": "Máximo dos meses, y sí genera tus prestaciones.", "copy": "El periodo de prueba no es un cheque en blanco. En contratos a término indefinido dura máximo dos meses, debe pactarse por escrito, y durante ese tiempo igual generas tus prestaciones sociales. Si te lo aplicaron mal, puedes reclamar. Revisamos tu caso. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p9", "pilar": "Impuestos", "lang": "bi",
+      "en": {"titulo": "Living in Colombia? You may be a tax resident", "subtitulo": "Over 183 days can change where you owe taxes.", "copy": "Spending more than 183 days in Colombia can make you a tax resident, and change where you owe taxes on your worldwide income. Most people don't realize it until it's a problem. We help you plan it correctly. Message us on WhatsApp."},
+      "es": {"titulo": "¿Vives en Colombia? Podrías ser residente fiscal", "subtitulo": "Más de 183 días puede cambiar dónde tributas.", "copy": "Pasar más de 183 días en Colombia puede convertirte en residente fiscal, y cambiar dónde debes declarar tus ingresos del mundo. Muchos no se enteran hasta que es un problema. Te ayudamos a planificarlo bien. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p10", "pilar": "Contabilidad", "lang": "es",
+      "es": {"titulo": "La contabilidad atrasada se paga caro", "subtitulo": "Estar al día con la DIAN evita sanciones.", "copy": "La contabilidad atrasada es una sanción esperando a pasar. La DIAN exige facturación electrónica y declaraciones al día, y los descuidos se pagan caro. Mantener tus libros en orden te da tranquilidad y evita multas. Llevamos tu contabilidad al día. Escríbenos por WhatsApp."}
+    }
+  ]
+}

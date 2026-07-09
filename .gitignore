@@ -1,0 +1,4 @@
+meta.env
+*.log
+run.lock
+.DS_Store

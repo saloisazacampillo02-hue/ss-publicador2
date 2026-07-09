@@ -1,0 +1,45 @@
+{
+  "semana": "2 (mixta: expat bilingüe + local español)",
+  "nota": "lang 'bi' = carrusel EN+ES; lang 'es' = post de 1 imagen en español.",
+  "piezas": [
+    {
+      "key": "p1", "pilar": "Visas", "lang": "bi",
+      "en": {"titulo": "Retire in Colombia", "subtitulo": "The pensionado visa makes it official and simple.", "copy": "Dreaming of retiring in Colombia? The pensionado visa lets you settle long-term with your pension income, done right, it's smooth and secure. We handle the whole process. Start your next chapter, message us on WhatsApp."},
+      "es": {"titulo": "Jubílate en Colombia", "subtitulo": "La visa de pensionado lo hace oficial y sencillo.", "copy": "¿Sueñas con jubilarte en Colombia? La visa de pensionado te permite establecerte a largo plazo con tu pensión, bien hecha, es un proceso tranquilo y seguro. Lo manejamos completo. Empieza tu nuevo capítulo, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p2", "pilar": "Derecho laboral", "lang": "es",
+      "es": {"titulo": "¿Te despidieron sin justa causa?", "subtitulo": "Puede corresponderte una indemnización.", "copy": "Si te despidieron sin una justa causa, la ley te protege: puede corresponderte una indemnización según tu tiempo y tu salario. Muchos no reclaman porque no saben que tienen derecho. Revisamos tu caso y te decimos qué te deben. Conoce tus derechos, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p3", "pilar": "Centrales de riesgo", "lang": "es",
+      "es": {"titulo": "¿Pagaste y sigues reportado?", "subtitulo": "El dato negativo tiene fecha de caducidad.", "copy": "Pagar tu deuda no significa que el reporte se quede para siempre. La ley fija cuánto puede durar un dato negativo, y vencido ese plazo debe eliminarse. Si sigue ahí, podemos exigir que lo retiren. Recupera tu vida crediticia, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p4", "pilar": "Derecho laboral", "lang": "es",
+      "es": {"titulo": "¿Te liquidaron bien?", "subtitulo": "Cesantías, prima y vacaciones deben estar completas.", "copy": "Al terminar tu contrato, tu liquidación debe incluir cesantías, intereses, prima y vacaciones, y muchas veces sale incompleta. Si las cuentas no cuadran, tienes derecho a reclamar lo que falta. Revisamos que esté completa, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p5", "pilar": "Impuestos", "lang": "bi",
+      "en": {"titulo": "Don't get taxed twice", "subtitulo": "Tax treaties can save you from paying in two countries.", "copy": "Living between two countries? You could be taxed twice on the same income, unless you use the rules and treaties that prevent it. Most people overpay because no one told them. We make sure you don't. Pay once, correctly, message us on WhatsApp."},
+      "es": {"titulo": "No pagues impuestos dos veces", "subtitulo": "Los convenios evitan que tributes en dos países.", "copy": "¿Vives entre dos países? Podrías pagar impuestos dos veces sobre el mismo ingreso, a menos que uses las reglas y convenios que lo evitan. Muchos pagan de más porque nadie les avisó. Nos aseguramos de que no te pase. Paga una vez, bien, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p6", "pilar": "Centrales de riesgo", "lang": "es",
+      "es": {"titulo": "¿Te reportaron sin avisarte?", "subtitulo": "Reportar sin notificación previa es ilegal.", "copy": "Antes de reportarte a una central de riesgo, deben notificarte con anticipación. Si te reportaron sin avisarte, ese reporte es ilegal y puede eliminarse. No tienes que cargar con un reporte mal hecho. Defendemos tu habeas data, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p7", "pilar": "Derecho laboral", "lang": "es",
+      "es": {"titulo": "¿Te pagan tus horas extra?", "subtitulo": "Los recargos no son un favor: son tu derecho.", "copy": "Trabajar de más debe pagarse de más. Las horas extra y los recargos nocturnos, dominicales y festivos son tu derecho, no un favor del empleador. Si no te los están pagando, puedes reclamarlos. Revisa lo que te deben, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p8", "pilar": "Estructura legal", "lang": "bi",
+      "en": {"titulo": "Open your company in Colombia", "subtitulo": "Foreigners can fully own a company.", "copy": "You don't need to be Colombian to own a company here. A foreigner can fully own a company with the right setup for taxes, liability and compliance. We build it correctly from day one. Launch in Colombia, write to us on WhatsApp."},
+      "es": {"titulo": "Abre tu empresa en Colombia", "subtitulo": "Un extranjero puede ser dueño total de una empresa.", "copy": "No necesitas ser colombiano para tener empresa aquí. Un extranjero puede ser dueño del 100% de una empresa colombiana con la estructura correcta de impuestos, responsabilidad y cumplimiento. La montamos bien desde el día uno. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p9", "pilar": "Centrales de riesgo", "lang": "es",
+      "es": {"titulo": "¿Te niegan crédito por un reporte viejo?", "subtitulo": "Un reporte vencido o erróneo se puede eliminar.", "copy": "Que un reporte antiguo te cierre las puertas del crédito no siempre es legal. Si el dato ya caducó o está errado, se puede corregir o eliminar para que vuelvas a ser sujeto de crédito. Te ayudamos a limpiarlo bien. Recupera tu acceso al crédito, escríbenos por WhatsApp."}
+    }
+  ]
+}
