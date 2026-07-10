@@ -379,7 +379,8 @@
       "tipo": "historia",
       "modo": "teaser",
       "archivo": "historia_teaser_w4_p5.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-10 12:15:44"
     },
     {
       "cuando": "2026-07-09 19:00",
