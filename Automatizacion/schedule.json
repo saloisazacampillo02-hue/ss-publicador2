@@ -1,443 +1,562 @@
 {
-  "zona": "America/Bogota",
-  "nota": "Feed sem1 (carrusel) + sem2 (tipo 'post2': bi=carrusel, es=1 imagen) + historias 11am (teaser/tip alternando). Idempotente.",
-  "items": [
-    {
-      "cuando": "2026-06-16 16:00",
-      "pieza": "lun_p1",
-      "publicado": true,
-      "publicado_en": "2026-06-16 16:04:17"
-    },
-    {
-      "cuando": "2026-06-16 20:00",
-      "pieza": "mar_p1",
-      "publicado": true,
-      "publicado_en": "2026-06-16 20:00:14"
-    },
-    {
-      "cuando": "2026-06-17 10:00",
-      "pieza": "mar_p2",
-      "publicado": true,
-      "publicado_en": "2026-06-17 10:44:16"
-    },
-    {
-      "cuando": "2026-06-17 11:00",
-      "tipo": "historia",
-      "modo": "teaser",
-      "archivo": "historia_teaser_mar_p2.jpg",
-      "publicado": true,
-      "publicado_en": "2026-06-17 11:20:09"
-    },
-    {
-      "cuando": "2026-06-17 16:00",
-      "pieza": "mie_p1",
-      "publicado": true,
-      "publicado_en": "2026-06-18 14:24:47"
-    },
-    {
-      "cuando": "2026-06-17 20:00",
-      "pieza": "mie_p2",
-      "publicado": true,
-      "publicado_en": "2026-06-18 14:24:47"
-    },
-    {
-      "cuando": "2026-06-18 10:00",
-      "pieza": "jue_p1",
-      "publicado": true,
-      "publicado_en": "2026-06-18 14:24:47"
-    },
-    {
-      "cuando": "2026-06-18 11:00",
-      "tipo": "historia",
-      "modo": "tip",
-      "archivo": "historia_tip_t1.jpg",
-      "publicado": true,
-      "publicado_en": "2026-06-18 14:24:47"
-    },
-    {
-      "cuando": "2026-06-18 16:00",
-      "pieza": "jue_p2",
-      "publicado": true,
-      "publicado_en": "2026-06-18 16:27:35"
-    },
-    {
-      "cuando": "2026-06-19 10:00",
-      "pieza": "vie_p1",
-      "publicado": true,
-      "publicado_en": "2026-06-19 11:45:17"
-    },
-    {
-      "cuando": "2026-06-19 11:00",
-      "tipo": "historia",
-      "modo": "teaser",
-      "archivo": "historia_teaser_vie_p1.jpg",
-      "publicado": true,
-      "publicado_en": "2026-06-19 11:06:48"
-    },
-    {
-      "cuando": "2026-06-19 16:00",
-      "pieza": "vie_p2",
-      "publicado": true,
-      "publicado_en": "2026-06-21 16:45:05"
-    },
-    {
-      "cuando": "2026-06-20 11:00",
-      "tipo": "historia",
-      "modo": "tip",
-      "archivo": "historia_tip_t2.jpg",
-      "publicado": true,
-      "publicado_en": "2026-06-21 16:45:05"
-    },
-    {
-      "cuando": "2026-06-21 11:00",
-      "tipo": "historia",
-      "modo": "tip",
-      "archivo": "historia_tip_t3.jpg",
-      "publicado": true,
-      "publicado_en": "2026-06-21 16:45:05"
-    },
-    {
-      "cuando": "2026-06-22 10:00",
-      "tipo": "post2",
-      "key": "p1",
-      "publicado": true,
-      "publicado_en": "2026-06-22 11:23:22"
-    },
-    {
-      "cuando": "2026-06-22 11:00",
-      "tipo": "historia",
-      "modo": "teaser",
-      "archivo": "historia_teaser_p1.jpg",
-      "publicado": true,
-      "publicado_en": "2026-06-22 11:23:22"
-    },
-    {
-      "cuando": "2026-06-22 16:00",
-      "tipo": "post2",
-      "key": "p2",
-      "publicado": true,
-      "publicado_en": "2026-06-22 18:35:50"
-    },
-    {
-      "cuando": "2026-06-23 10:00",
-      "tipo": "post2",
-      "key": "p3",
-      "publicado": true,
-      "publicado_en": "2026-06-23 10:39:50"
-    },
-    {
-      "cuando": "2026-06-23 11:00",
-      "tipo": "historia",
-      "modo": "tip",
-      "archivo": "historia_tip_t4.jpg",
-      "publicado": true,
-      "publicado_en": "2026-06-23 11:59:59"
-    },
-    {
-      "cuando": "2026-06-23 16:00",
-      "tipo": "post2",
-      "key": "p4",
-      "publicado": true,
-      "publicado_en": "2026-06-23 16:10:24"
-    },
-    {
-      "cuando": "2026-06-24 10:00",
-      "tipo": "post2",
-      "key": "p5",
-      "publicado": true,
-      "publicado_en": "2026-06-24 10:46:51"
-    },
-    {
-      "cuando": "2026-06-24 11:00",
-      "tipo": "historia",
-      "modo": "teaser",
-      "archivo": "historia_teaser_p5.jpg",
-      "publicado": true,
-      "publicado_en": "2026-06-24 11:18:09"
-    },
-    {
-      "cuando": "2026-06-24 16:00",
-      "tipo": "post2",
-      "key": "p6",
-      "publicado": true,
-      "publicado_en": "2026-06-24 16:18:27"
-    },
-    {
-      "cuando": "2026-06-25 10:00",
-      "tipo": "post2",
-      "key": "p7",
-      "publicado": true,
-      "publicado_en": "2026-06-25 15:04:43"
-    },
-    {
-      "cuando": "2026-06-25 11:00",
-      "tipo": "historia",
-      "modo": "tip",
-      "archivo": "historia_tip_t5.jpg",
-      "publicado": true,
-      "publicado_en": "2026-06-25 15:04:43"
-    },
-    {
-      "cuando": "2026-06-25 16:00",
-      "tipo": "post2",
-      "key": "p8",
-      "publicado": true,
-      "publicado_en": "2026-06-25 16:05:26"
-    },
-    {
-      "cuando": "2026-06-26 10:00",
-      "tipo": "post2",
-      "key": "p9",
-      "publicado": true,
-      "publicado_en": "2026-06-26 13:25:16"
-    },
-    {
-      "cuando": "2026-06-26 11:00",
-      "tipo": "historia",
-      "modo": "teaser",
-      "archivo": "historia_teaser_p9.jpg",
-      "publicado": true,
-      "publicado_en": "2026-06-26 13:25:16"
-    },
-    {
-      "cuando": "2026-06-29 10:00",
-      "tipo": "post2",
-      "sem": 3,
-      "key": "p1",
-      "publicado": true,
-      "publicado_en": "2026-06-29 13:32:43"
-    },
-    {
-      "cuando": "2026-06-29 11:00",
-      "tipo": "historia",
-      "modo": "teaser",
-      "archivo": "historia_teaser_w3_p1.jpg",
-      "publicado": true,
-      "publicado_en": "2026-06-29 13:32:43"
-    },
-    {
-      "cuando": "2026-06-29 16:00",
-      "tipo": "post2",
-      "sem": 3,
-      "key": "p2",
-      "publicado": true,
-      "publicado_en": "2026-06-29 16:27:28"
-    },
-    {
-      "cuando": "2026-06-30 10:00",
-      "tipo": "post2",
-      "sem": 3,
-      "key": "p3",
-      "publicado": true,
-      "publicado_en": "2026-06-30 12:41:41"
-    },
-    {
-      "cuando": "2026-06-30 11:00",
-      "tipo": "historia",
-      "modo": "tip",
-      "archivo": "historia_tip_t6.jpg",
-      "publicado": true,
-      "publicado_en": "2026-06-30 12:41:41"
-    },
-    {
-      "cuando": "2026-06-30 16:00",
-      "tipo": "post2",
-      "sem": 3,
-      "key": "p4",
-      "publicado": true,
-      "publicado_en": "2026-06-30 16:07:04"
-    },
-    {
-      "cuando": "2026-07-01 10:00",
-      "tipo": "post2",
-      "sem": 3,
-      "key": "p5",
-      "publicado": true,
-      "publicado_en": "2026-07-01 22:37:53"
-    },
-    {
-      "cuando": "2026-07-01 11:00",
-      "tipo": "historia",
-      "modo": "teaser",
-      "archivo": "historia_teaser_w3_p5.jpg",
-      "publicado": true,
-      "publicado_en": "2026-07-01 22:37:53"
-    },
-    {
-      "cuando": "2026-07-01 16:00",
-      "tipo": "post2",
-      "sem": 3,
-      "key": "p6",
-      "publicado": true,
-      "publicado_en": "2026-07-01 22:37:53"
-    },
-    {
-      "cuando": "2026-07-02 10:00",
-      "tipo": "post2",
-      "sem": 3,
-      "key": "p7",
-      "publicado": true,
-      "publicado_en": "2026-07-02 13:39:34"
-    },
-    {
-      "cuando": "2026-07-02 11:00",
-      "tipo": "historia",
-      "modo": "tip",
-      "archivo": "historia_tip_t7.jpg",
-      "publicado": true,
-      "publicado_en": "2026-07-02 13:39:34"
-    },
-    {
-      "cuando": "2026-07-02 16:00",
-      "tipo": "post2",
-      "sem": 3,
-      "key": "p8",
-      "publicado": true,
-      "publicado_en": "2026-07-02 21:03:32"
-    },
-    {
-      "cuando": "2026-07-03 10:00",
-      "tipo": "post2",
-      "sem": 3,
-      "key": "p9",
-      "publicado": true,
-      "publicado_en": "2026-07-03 11:52:38"
-    },
-    {
-      "cuando": "2026-07-03 11:00",
-      "tipo": "historia",
-      "modo": "teaser",
-      "archivo": "historia_teaser_w3_p9.jpg",
-      "publicado": true,
-      "publicado_en": "2026-07-04 21:13:30"
-    },
-    {
-      "cuando": "2026-07-03 16:00",
-      "tipo": "post2",
-      "sem": 3,
-      "key": "p10",
-      "publicado": true,
-      "publicado_en": "2026-07-04 21:13:30"
-    },
-    {
-      "cuando": "2026-07-06 10:00",
-      "tipo": "post2",
-      "sem": 4,
-      "key": "p1",
-      "publicado": true,
-      "publicado_en": "2026-07-06 12:26:39"
-    },
-    {
-      "cuando": "2026-07-06 11:00",
-      "tipo": "historia",
-      "modo": "teaser",
-      "archivo": "historia_teaser_w4_p1.jpg",
-      "publicado": true,
-      "publicado_en": "2026-07-06 11:10:35"
-    },
-    {
-      "cuando": "2026-07-06 16:00",
-      "tipo": "post2",
-      "sem": 4,
-      "key": "p2",
-      "publicado": true,
-      "publicado_en": "2026-07-06 17:43:52"
-    },
-    {
-      "cuando": "2026-07-07 10:00",
-      "tipo": "post2",
-      "sem": 4,
-      "key": "p3",
-      "publicado": true,
-      "publicado_en": "2026-07-07 10:07:54"
-    },
-    {
-      "cuando": "2026-07-11 11:00",
-      "tipo": "historia",
-      "modo": "tip",
-      "archivo": "historia_tip_t8.jpg",
-      "publicado": true,
-      "publicado_en": "2026-07-11 11:24:47"
-    },
-    {
-      "cuando": "2026-07-09 12:31",
-      "tipo": "post2",
-      "sem": 4,
-      "key": "p4",
-      "publicado": true,
-      "publicado_en": "2026-07-09 12:32:06"
-    },
-    {
-      "cuando": "2026-07-09 16:00",
-      "tipo": "post2",
-      "sem": 4,
-      "key": "p5",
-      "publicado": true,
-      "publicado_en": "2026-07-09 17:05:33"
-    },
-    {
-      "cuando": "2026-07-10 11:00",
-      "tipo": "historia",
-      "modo": "teaser",
-      "archivo": "historia_teaser_w4_p5.jpg",
-      "publicado": true,
-      "publicado_en": "2026-07-10 12:15:44"
-    },
-    {
-      "cuando": "2026-07-09 19:00",
-      "tipo": "post2",
-      "sem": 4,
-      "key": "p6",
-      "publicado": true,
-      "publicado_en": "2026-07-09 22:20:06"
-    },
-    {
-      "cuando": "2026-07-10 10:00",
-      "tipo": "post2",
-      "sem": 4,
-      "key": "p7",
-      "publicado": true,
-      "publicado_en": "2026-07-10 10:18:36"
-    },
-    {
-      "cuando": "2026-07-09 12:31",
-      "tipo": "historia",
-      "modo": "tip",
-      "archivo": "historia_tip_t9.jpg",
-      "publicado": true,
-      "publicado_en": "2026-07-09 12:32:06"
-    },
-    {
-      "cuando": "2026-07-10 14:00",
-      "tipo": "post2",
-      "sem": 4,
-      "key": "p8",
-      "publicado": true,
-      "publicado_en": "2026-07-10 15:16:02"
-    },
-    {
-      "cuando": "2026-07-10 18:00",
-      "tipo": "post2",
-      "sem": 4,
-      "key": "p9",
-      "publicado": true,
-      "publicado_en": "2026-07-10 18:36:45"
-    },
-    {
-      "cuando": "2026-07-12 11:00",
-      "tipo": "historia",
-      "modo": "teaser",
-      "archivo": "historia_teaser_w4_p9.jpg",
-      "publicado": true,
-      "publicado_en": "2026-07-12 11:25:51"
-    },
-    {
-      "cuando": "2026-07-11 10:00",
-      "tipo": "post2",
-      "sem": 4,
-      "key": "p10",
-      "publicado": true,
-      "publicado_en": "2026-07-11 10:28:22"
-    }
-  ]
+ "zona": "America/Bogota",
+ "nota": "Feed sem1 (carrusel) + sem2 (tipo 'post2': bi=carrusel, es=1 imagen) + historias 11am (teaser/tip alternando). Idempotente.",
+ "items": [
+  {
+   "cuando": "2026-06-16 16:00",
+   "pieza": "lun_p1",
+   "publicado": true,
+   "publicado_en": "2026-06-16 16:04:17"
+  },
+  {
+   "cuando": "2026-06-16 20:00",
+   "pieza": "mar_p1",
+   "publicado": true,
+   "publicado_en": "2026-06-16 20:00:14"
+  },
+  {
+   "cuando": "2026-06-17 10:00",
+   "pieza": "mar_p2",
+   "publicado": true,
+   "publicado_en": "2026-06-17 10:44:16"
+  },
+  {
+   "cuando": "2026-06-17 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_mar_p2.jpg",
+   "publicado": true,
+   "publicado_en": "2026-06-17 11:20:09"
+  },
+  {
+   "cuando": "2026-06-17 16:00",
+   "pieza": "mie_p1",
+   "publicado": true,
+   "publicado_en": "2026-06-18 14:24:47"
+  },
+  {
+   "cuando": "2026-06-17 20:00",
+   "pieza": "mie_p2",
+   "publicado": true,
+   "publicado_en": "2026-06-18 14:24:47"
+  },
+  {
+   "cuando": "2026-06-18 10:00",
+   "pieza": "jue_p1",
+   "publicado": true,
+   "publicado_en": "2026-06-18 14:24:47"
+  },
+  {
+   "cuando": "2026-06-18 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_tip_t1.jpg",
+   "publicado": true,
+   "publicado_en": "2026-06-18 14:24:47"
+  },
+  {
+   "cuando": "2026-06-18 16:00",
+   "pieza": "jue_p2",
+   "publicado": true,
+   "publicado_en": "2026-06-18 16:27:35"
+  },
+  {
+   "cuando": "2026-06-19 10:00",
+   "pieza": "vie_p1",
+   "publicado": true,
+   "publicado_en": "2026-06-19 11:45:17"
+  },
+  {
+   "cuando": "2026-06-19 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_vie_p1.jpg",
+   "publicado": true,
+   "publicado_en": "2026-06-19 11:06:48"
+  },
+  {
+   "cuando": "2026-06-19 16:00",
+   "pieza": "vie_p2",
+   "publicado": true,
+   "publicado_en": "2026-06-21 16:45:05"
+  },
+  {
+   "cuando": "2026-06-20 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_tip_t2.jpg",
+   "publicado": true,
+   "publicado_en": "2026-06-21 16:45:05"
+  },
+  {
+   "cuando": "2026-06-21 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_tip_t3.jpg",
+   "publicado": true,
+   "publicado_en": "2026-06-21 16:45:05"
+  },
+  {
+   "cuando": "2026-06-22 10:00",
+   "tipo": "post2",
+   "key": "p1",
+   "publicado": true,
+   "publicado_en": "2026-06-22 11:23:22"
+  },
+  {
+   "cuando": "2026-06-22 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_p1.jpg",
+   "publicado": true,
+   "publicado_en": "2026-06-22 11:23:22"
+  },
+  {
+   "cuando": "2026-06-22 16:00",
+   "tipo": "post2",
+   "key": "p2",
+   "publicado": true,
+   "publicado_en": "2026-06-22 18:35:50"
+  },
+  {
+   "cuando": "2026-06-23 10:00",
+   "tipo": "post2",
+   "key": "p3",
+   "publicado": true,
+   "publicado_en": "2026-06-23 10:39:50"
+  },
+  {
+   "cuando": "2026-06-23 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_tip_t4.jpg",
+   "publicado": true,
+   "publicado_en": "2026-06-23 11:59:59"
+  },
+  {
+   "cuando": "2026-06-23 16:00",
+   "tipo": "post2",
+   "key": "p4",
+   "publicado": true,
+   "publicado_en": "2026-06-23 16:10:24"
+  },
+  {
+   "cuando": "2026-06-24 10:00",
+   "tipo": "post2",
+   "key": "p5",
+   "publicado": true,
+   "publicado_en": "2026-06-24 10:46:51"
+  },
+  {
+   "cuando": "2026-06-24 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_p5.jpg",
+   "publicado": true,
+   "publicado_en": "2026-06-24 11:18:09"
+  },
+  {
+   "cuando": "2026-06-24 16:00",
+   "tipo": "post2",
+   "key": "p6",
+   "publicado": true,
+   "publicado_en": "2026-06-24 16:18:27"
+  },
+  {
+   "cuando": "2026-06-25 10:00",
+   "tipo": "post2",
+   "key": "p7",
+   "publicado": true,
+   "publicado_en": "2026-06-25 15:04:43"
+  },
+  {
+   "cuando": "2026-06-25 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_tip_t5.jpg",
+   "publicado": true,
+   "publicado_en": "2026-06-25 15:04:43"
+  },
+  {
+   "cuando": "2026-06-25 16:00",
+   "tipo": "post2",
+   "key": "p8",
+   "publicado": true,
+   "publicado_en": "2026-06-25 16:05:26"
+  },
+  {
+   "cuando": "2026-06-26 10:00",
+   "tipo": "post2",
+   "key": "p9",
+   "publicado": true,
+   "publicado_en": "2026-06-26 13:25:16"
+  },
+  {
+   "cuando": "2026-06-26 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_p9.jpg",
+   "publicado": true,
+   "publicado_en": "2026-06-26 13:25:16"
+  },
+  {
+   "cuando": "2026-06-29 10:00",
+   "tipo": "post2",
+   "sem": 3,
+   "key": "p1",
+   "publicado": true,
+   "publicado_en": "2026-06-29 13:32:43"
+  },
+  {
+   "cuando": "2026-06-29 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_w3_p1.jpg",
+   "publicado": true,
+   "publicado_en": "2026-06-29 13:32:43"
+  },
+  {
+   "cuando": "2026-06-29 16:00",
+   "tipo": "post2",
+   "sem": 3,
+   "key": "p2",
+   "publicado": true,
+   "publicado_en": "2026-06-29 16:27:28"
+  },
+  {
+   "cuando": "2026-06-30 10:00",
+   "tipo": "post2",
+   "sem": 3,
+   "key": "p3",
+   "publicado": true,
+   "publicado_en": "2026-06-30 12:41:41"
+  },
+  {
+   "cuando": "2026-06-30 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_tip_t6.jpg",
+   "publicado": true,
+   "publicado_en": "2026-06-30 12:41:41"
+  },
+  {
+   "cuando": "2026-06-30 16:00",
+   "tipo": "post2",
+   "sem": 3,
+   "key": "p4",
+   "publicado": true,
+   "publicado_en": "2026-06-30 16:07:04"
+  },
+  {
+   "cuando": "2026-07-01 10:00",
+   "tipo": "post2",
+   "sem": 3,
+   "key": "p5",
+   "publicado": true,
+   "publicado_en": "2026-07-01 22:37:53"
+  },
+  {
+   "cuando": "2026-07-01 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_w3_p5.jpg",
+   "publicado": true,
+   "publicado_en": "2026-07-01 22:37:53"
+  },
+  {
+   "cuando": "2026-07-01 16:00",
+   "tipo": "post2",
+   "sem": 3,
+   "key": "p6",
+   "publicado": true,
+   "publicado_en": "2026-07-01 22:37:53"
+  },
+  {
+   "cuando": "2026-07-02 10:00",
+   "tipo": "post2",
+   "sem": 3,
+   "key": "p7",
+   "publicado": true,
+   "publicado_en": "2026-07-02 13:39:34"
+  },
+  {
+   "cuando": "2026-07-02 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_tip_t7.jpg",
+   "publicado": true,
+   "publicado_en": "2026-07-02 13:39:34"
+  },
+  {
+   "cuando": "2026-07-02 16:00",
+   "tipo": "post2",
+   "sem": 3,
+   "key": "p8",
+   "publicado": true,
+   "publicado_en": "2026-07-02 21:03:32"
+  },
+  {
+   "cuando": "2026-07-03 10:00",
+   "tipo": "post2",
+   "sem": 3,
+   "key": "p9",
+   "publicado": true,
+   "publicado_en": "2026-07-03 11:52:38"
+  },
+  {
+   "cuando": "2026-07-03 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_w3_p9.jpg",
+   "publicado": true,
+   "publicado_en": "2026-07-04 21:13:30"
+  },
+  {
+   "cuando": "2026-07-03 16:00",
+   "tipo": "post2",
+   "sem": 3,
+   "key": "p10",
+   "publicado": true,
+   "publicado_en": "2026-07-04 21:13:30"
+  },
+  {
+   "cuando": "2026-07-06 10:00",
+   "tipo": "post2",
+   "sem": 4,
+   "key": "p1",
+   "publicado": true,
+   "publicado_en": "2026-07-06 12:26:39"
+  },
+  {
+   "cuando": "2026-07-06 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_w4_p1.jpg",
+   "publicado": true,
+   "publicado_en": "2026-07-06 11:10:35"
+  },
+  {
+   "cuando": "2026-07-06 16:00",
+   "tipo": "post2",
+   "sem": 4,
+   "key": "p2",
+   "publicado": true,
+   "publicado_en": "2026-07-06 17:43:52"
+  },
+  {
+   "cuando": "2026-07-07 10:00",
+   "tipo": "post2",
+   "sem": 4,
+   "key": "p3",
+   "publicado": true,
+   "publicado_en": "2026-07-07 10:07:54"
+  },
+  {
+   "cuando": "2026-07-11 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_tip_t8.jpg",
+   "publicado": true,
+   "publicado_en": "2026-07-11 11:24:47"
+  },
+  {
+   "cuando": "2026-07-09 12:31",
+   "tipo": "post2",
+   "sem": 4,
+   "key": "p4",
+   "publicado": true,
+   "publicado_en": "2026-07-09 12:32:06"
+  },
+  {
+   "cuando": "2026-07-09 16:00",
+   "tipo": "post2",
+   "sem": 4,
+   "key": "p5",
+   "publicado": true,
+   "publicado_en": "2026-07-09 17:05:33"
+  },
+  {
+   "cuando": "2026-07-10 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_w4_p5.jpg",
+   "publicado": true,
+   "publicado_en": "2026-07-10 12:15:44"
+  },
+  {
+   "cuando": "2026-07-09 19:00",
+   "tipo": "post2",
+   "sem": 4,
+   "key": "p6",
+   "publicado": true,
+   "publicado_en": "2026-07-09 22:20:06"
+  },
+  {
+   "cuando": "2026-07-10 10:00",
+   "tipo": "post2",
+   "sem": 4,
+   "key": "p7",
+   "publicado": true,
+   "publicado_en": "2026-07-10 10:18:36"
+  },
+  {
+   "cuando": "2026-07-09 12:31",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_tip_t9.jpg",
+   "publicado": true,
+   "publicado_en": "2026-07-09 12:32:06"
+  },
+  {
+   "cuando": "2026-07-10 14:00",
+   "tipo": "post2",
+   "sem": 4,
+   "key": "p8",
+   "publicado": true,
+   "publicado_en": "2026-07-10 15:16:02"
+  },
+  {
+   "cuando": "2026-07-10 18:00",
+   "tipo": "post2",
+   "sem": 4,
+   "key": "p9",
+   "publicado": true,
+   "publicado_en": "2026-07-10 18:36:45"
+  },
+  {
+   "cuando": "2026-07-12 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_w4_p9.jpg",
+   "publicado": true,
+   "publicado_en": "2026-07-12 11:25:51"
+  },
+  {
+   "cuando": "2026-07-11 10:00",
+   "tipo": "post2",
+   "sem": 4,
+   "key": "p10",
+   "publicado": true,
+   "publicado_en": "2026-07-11 10:28:22"
+  },
+  {
+   "cuando": "2026-07-20 09:00",
+   "tipo": "post2",
+   "sem": "esp",
+   "key": "indep",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-20 11:00",
+   "tipo": "historia",
+   "modo": "especial",
+   "archivo": "historia_esp_indep.jpg",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-18 16:00",
+   "tipo": "post2",
+   "sem": 4,
+   "key": "p5",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-21 09:00",
+   "tipo": "post2",
+   "sem": 5,
+   "key": "p1",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-21 13:00",
+   "tipo": "post2",
+   "sem": 5,
+   "key": "p2",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-21 17:00",
+   "tipo": "post2",
+   "sem": 5,
+   "key": "p3",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-22 09:00",
+   "tipo": "post2",
+   "sem": 5,
+   "key": "p4",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-22 13:00",
+   "tipo": "post2",
+   "sem": 5,
+   "key": "p5",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-22 17:00",
+   "tipo": "post2",
+   "sem": 5,
+   "key": "p6",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-23 10:00",
+   "tipo": "post2",
+   "sem": 5,
+   "key": "p7",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-23 16:00",
+   "tipo": "post2",
+   "sem": 5,
+   "key": "p8",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-24 10:00",
+   "tipo": "post2",
+   "sem": 5,
+   "key": "p9",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-24 16:00",
+   "tipo": "post2",
+   "sem": 5,
+   "key": "p10",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-21 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_w5_p1.jpg",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-22 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_tip_t10.jpg",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-23 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_tip_t11.jpg",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-07-24 11:00",
+   "tipo": "historia",
+   "modo": "teaser",
+   "archivo": "historia_teaser_w5_p9.jpg",
+   "publicado": false
+  }
+ ]
 }

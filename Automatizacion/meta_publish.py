@@ -251,7 +251,7 @@ def publish_piece2(env, data, key, images=None):
             print("ℹ️  Facebook no configurado — solo Instagram.")
     else:
         es_img = images[0] if images else (PIEZAS / f"pieza_w2_{key}_ES.jpg")
-        caption = f"{p['es']['copy']}\n\n{HASH_LOCAL}"
+        caption = f"{p['es']['copy']}\n\n{p.get('hash', HASH_LOCAL)}"
         print(f"\n=== Pieza {key} · {p['pilar']} (1 imagen, ES) ===")
         print("📤 Subiendo imagen...")
         url_es = upload_public(es_img)

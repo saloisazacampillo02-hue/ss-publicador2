@@ -1,0 +1,51 @@
+{
+  "semana": "5 (13-17 jul; mixta: expat bilingüe + local español)",
+  "nota": "lang 'bi' = carrusel EN+ES; lang 'es' = post de 1 imagen en español. Sin guión largo.",
+  "piezas": [
+    {
+      "key": "p1", "pilar": "Visas", "lang": "bi",
+      "en": {"titulo": "Become a Colombian citizen", "subtitulo": "After residency, citizenship can be your next step.", "copy": "Once you've held residency for the required time, you may qualify to become a Colombian citizen, with a passport and full rights. The process has specific requirements and timing. We guide you through it all. Ready for the next step? Message us on WhatsApp."},
+      "es": {"titulo": "Obtén la nacionalidad colombiana", "subtitulo": "Después de la residencia, la nacionalidad puede ser tu siguiente paso.", "copy": "Cuando cumples el tiempo requerido como residente, puedes calificar para la nacionalidad colombiana, con pasaporte y derechos plenos. El proceso tiene requisitos y tiempos específicos. Te guiamos en todo. ¿Listo para el siguiente paso? Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p2", "pilar": "Centrales de riesgo", "lang": "es",
+      "es": {"titulo": "¿Cuánto dura un reporte negativo?", "subtitulo": "Tiene fecha de caducidad, y vencida debe eliminarse.", "copy": "Un reporte negativo no dura para siempre. La ley fija cuánto tiempo puede permanecer según cuándo pagaste o dejaste de deber. Cumplido ese plazo debe eliminarse, y si sigue ahí, puedes exigir que lo quiten. Revisamos tu caso, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p3", "pilar": "Visas", "lang": "bi",
+      "en": {"titulo": "Have a Colombian child?", "subtitulo": "Being a parent of a Colombian opens a visa path.", "copy": "If you're the parent of a Colombian child, you may qualify for a visa as their family, a path to living here legally and toward residency. Filed correctly, it's one of the strongest cases. We handle it for you. Message us on WhatsApp."},
+      "es": {"titulo": "¿Tienes un hijo colombiano?", "subtitulo": "Ser padre o madre de un colombiano te abre camino a la visa.", "copy": "Si eres papá o mamá de un hijo colombiano, puedes calificar para una visa como su familiar, un camino para vivir aquí legalmente y avanzar hacia la residencia. Bien tramitada, es de los casos más sólidos. La manejamos por ti. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p4", "pilar": "Derecho laboral", "lang": "es",
+      "es": {"titulo": "¿Te contratan por prestación de servicios?", "subtitulo": "Si trabajas como empleado, te deben prestaciones.", "copy": "Muchos firman contrato de prestación de servicios pero, en la práctica, cumplen horario, reciben órdenes y dependen de un jefe. Eso es un contrato laboral disfrazado: aplica el 'contrato realidad' y te corresponden prestaciones, cesantías y más. Revisamos tu caso, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p5", "pilar": "Estructura legal", "lang": "bi",
+      "en": {"titulo": "Protect your brand in Colombia", "subtitulo": "If it's not registered, it's not really yours.", "copy": "Your brand name and logo are valuable, but without registration, someone else could claim them. Registering your trademark in Colombia protects your business and your reputation. We handle the whole process. Secure your brand, message us on WhatsApp."},
+      "es": {"titulo": "Registra tu marca en Colombia", "subtitulo": "Si no está registrada, no es del todo tuya.", "copy": "El nombre y el logo de tu marca valen, pero sin registro, otro podría apropiárselos. Registrar tu marca en Colombia protege tu negocio y tu reputación. Manejamos todo el trámite. Protege tu marca, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p6", "pilar": "Derecho laboral", "lang": "es",
+      "es": {"titulo": "¿Te pagan el auxilio de transporte?", "subtitulo": "Si ganas hasta dos salarios mínimos, te corresponde.", "copy": "El auxilio de transporte es un derecho para quienes ganan hasta dos salarios mínimos: un valor adicional que el empleador debe pagarte cada mes. Muchos no lo reciben sin saber que les corresponde. Si es tu caso, puedes reclamarlo. Revisa lo que te deben, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p7", "pilar": "Impuestos", "lang": "bi",
+      "en": {"titulo": "Withholding tax: know how it works", "subtitulo": "It's deducted before you even get paid.", "copy": "In Colombia, withholding tax (retención en la fuente) is taken out of many payments before you receive them, an advance on your income tax. Knowing when it applies helps you plan and avoid overpaying. We explain it for your case. Message us on WhatsApp."},
+      "es": {"titulo": "Retención en la fuente: cómo funciona", "subtitulo": "Te la descuentan antes de que te paguen.", "copy": "En Colombia, la retención en la fuente se descuenta de muchos pagos antes de que los recibas: es un anticipo de tu impuesto de renta. Saber cuándo aplica te ayuda a planear y a no pagar de más. Te la explicamos según tu caso. Escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p8", "pilar": "Centrales de riesgo", "lang": "es",
+      "es": {"titulo": "¿Reportado o en cobro jurídico?", "subtitulo": "No son lo mismo, y tus derechos cambian.", "copy": "Estar reportado en centrales de riesgo no es igual a estar en un proceso de cobro jurídico. En cada caso tienes derechos distintos y opciones distintas para defenderte. Saber en cuál estás es clave para actuar bien. Te orientamos, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p9", "pilar": "Inversión inmobiliaria", "lang": "bi",
+      "en": {"titulo": "Renting out your property?", "subtitulo": "A weak contract can cost you months of rent.", "copy": "Renting out property in Colombia without a solid contract is a risk, from unpaid rent to hard-to-remove tenants. A well-made lease protects your income and your property. We draft it right. Rent with peace of mind, message us on WhatsApp."},
+      "es": {"titulo": "¿Vas a arrendar tu propiedad?", "subtitulo": "Un contrato débil puede costarte meses de renta.", "copy": "Arrendar en Colombia sin un contrato sólido es un riesgo: desde cánones impagos hasta inquilinos difíciles de sacar. Un contrato de arrendamiento bien hecho protege tu ingreso y tu propiedad. Lo redactamos bien. Arrienda tranquilo, escríbenos por WhatsApp."}
+    },
+    {
+      "key": "p10", "pilar": "Contabilidad", "lang": "es",
+      "es": {"titulo": "¿Ya facturas electrónicamente?", "subtitulo": "Hoy es obligatorio, y no cumplir tiene sanciones.", "copy": "La facturación electrónica dejó de ser opcional: la DIAN la exige a la mayoría de negocios y personas que facturan. No estar al día puede traer sanciones y problemas para deducir gastos. Te ayudamos a implementarla bien. Escríbenos por WhatsApp."}
+    }
+  ]
+}

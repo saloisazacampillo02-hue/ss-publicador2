@@ -1,0 +1,17 @@
+{
+  "semana": "especial",
+  "nota": "Piezas conmemorativas one-shot. Se publican de primero en su fecha. lang es = 1 imagen; el copy ya viene bilingüe.",
+  "piezas": [
+    {
+      "key": "indep",
+      "pilar": "Marca",
+      "lang": "es",
+      "hash": "#DíaDeLaIndependencia #20DeJulio #GritoDeIndependencia #Colombia #SSSolutions #ssolutionscol #ExpatsInColombia #InvertirEnColombia #VivirEnColombia",
+      "es": {
+        "titulo": "Feliz Día de la Independencia",
+        "subtitulo": "20 de julio · Grito de Independencia de 1810.",
+        "copy": "🇨🇴 Feliz Día de la Independencia\n\nHoy Colombia conmemora el Grito de Independencia de 1810, 216 años del camino que nos hizo libres. En S&S Solutions celebramos al país que nos inspira todos los días: la tierra donde nuestros clientes invierten, echan raíces y construyen futuro.\n\nGracias por confiarnos lo que más importa: tu patrimonio, tu tranquilidad legal y tu próximo capítulo en Colombia.\n\nQue viva Colombia. 🇨🇴\n\n• • •\n\n🇨🇴 Happy Independence Day\n\nToday Colombia commemorates the Cry of Independence of 1810, 216 years of the road that made us free. At S&S Solutions we celebrate the country that inspires us every day: the land where our clients invest, put down roots and build their future.\n\nThank you for trusting us with what matters most: your assets, your legal peace of mind and your next chapter in Colombia.\n\nLong live Colombia. 🇨🇴"
+      }
+    }
+  ]
+}

@@ -2,64 +2,81 @@
   "nota": "Banco de tips para historias '¿Sabías que...?'. Rotan en orden. Tono: autoridad serena, honesto (nada de promesas como 'borramos cualquier deuda'). eyebrow fijo, tip = afirmación corta, sub = aclaración.",
   "tips": [
     {
-      "key": "t1", "pilar": "Centrales de riesgo",
+      "key": "t1",
+      "pilar": "Centrales de riesgo",
       "eyebrow": "¿Sabías que...?",
       "tip": "Pagar tu deuda no borra el reporte de inmediato",
       "sub": "El dato negativo tiene fecha de caducidad. Si ya venció, debe eliminarse."
     },
     {
-      "key": "t2", "pilar": "Derecho laboral",
+      "key": "t2",
+      "pilar": "Derecho laboral",
       "eyebrow": "¿Sabías que...?",
       "tip": "Si te despiden sin justa causa, te deben indemnización",
       "sub": "El monto depende de tu salario y tu tiempo en la empresa. Muchos no reclaman por no saberlo."
     },
     {
-      "key": "t3", "pilar": "Centrales de riesgo",
+      "key": "t3",
+      "pilar": "Centrales de riesgo",
       "eyebrow": "¿Sabías que...?",
       "tip": "Reportarte sin avisarte antes es ilegal",
       "sub": "Deben notificarte con anticipación. Sin esa notificación, el reporte se puede eliminar."
     },
     {
-      "key": "t4", "pilar": "Derecho laboral",
+      "key": "t4",
+      "pilar": "Derecho laboral",
       "eyebrow": "¿Sabías que...?",
       "tip": "Las horas extra y los recargos son tu derecho",
       "sub": "Trabajar de más debe pagarse de más. No es un favor del empleador."
     },
     {
-      "key": "t5", "pilar": "Visas",
+      "key": "t5",
+      "pilar": "Visas",
       "eyebrow": "¿Sabías que...?",
       "tip": "La visa que eliges hoy define tu camino a la residencia",
       "sub": "No todas suman para la Residencia. Elegir bien desde el inicio te ahorra años."
     },
     {
-      "key": "t6", "pilar": "Impuestos",
+      "key": "t6",
+      "pilar": "Impuestos",
       "eyebrow": "¿Sabías que...?",
       "tip": "Puedes evitar pagar impuestos en dos países",
       "sub": "Los convenios entre países evitan la doble tributación sobre el mismo ingreso."
     },
     {
-      "key": "t7", "pilar": "Derecho laboral",
+      "key": "t7",
+      "pilar": "Derecho laboral",
       "eyebrow": "¿Sabías que...?",
       "tip": "Tu liquidación debe incluir cesantías, prima y vacaciones",
       "sub": "Si las cuentas no cuadran, tienes derecho a reclamar lo que falta."
     },
     {
-      "key": "t8", "pilar": "Estructura legal",
+      "key": "t8",
+      "pilar": "Estructura legal",
       "eyebrow": "¿Sabías que...?",
       "tip": "Un extranjero puede ser dueño del 100% de una empresa en Colombia",
       "sub": "Con la estructura correcta de impuestos y cumplimiento desde el día uno."
     },
     {
-      "key": "t9", "pilar": "Impuestos",
+      "key": "t9",
+      "pilar": "Impuestos",
       "eyebrow": "¿Sabías que...?",
       "tip": "Vivir más de 183 días en Colombia puede volverte residente fiscal",
       "sub": "Eso cambia dónde debes declarar tus ingresos del mundo."
     },
     {
-      "key": "t10", "pilar": "Visas",
+      "key": "t10",
+      "pilar": "Visas",
       "eyebrow": "¿Sabías que...?",
       "tip": "No toda visa suma para la residencia",
       "sub": "Elegir bien desde el inicio te ahorra años y trámites."
+    },
+    {
+      "key": "t11",
+      "pilar": "Estructura legal",
+      "eyebrow": "¿Sabías que...?",
+      "tip": "Una SAS protege tu patrimonio personal",
+      "sub": "Las deudas de la empresa no tocan tus bienes personales."
     }
   ]
 }
