@@ -452,7 +452,8 @@
       "tipo": "historia",
       "modo": "especial",
       "archivo": "historia_esp_indep.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-20 11:13:03"
     },
     {
       "cuando": "2026-07-18 16:00",
