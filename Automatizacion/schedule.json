@@ -444,7 +444,8 @@
       "tipo": "post2",
       "sem": "esp",
       "key": "indep",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-20 09:38:58"
     },
     {
       "cuando": "2026-07-20 11:00",
