@@ -500,7 +500,8 @@
       "tipo": "post2",
       "sem": 5,
       "key": "p5",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-22 13:02:42"
     },
     {
       "cuando": "2026-07-22 17:00",
