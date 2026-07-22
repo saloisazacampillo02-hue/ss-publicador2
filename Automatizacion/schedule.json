@@ -550,7 +550,8 @@
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_tip_t10.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-22 11:54:15"
     },
     {
       "cuando": "2026-07-23 11:00",
