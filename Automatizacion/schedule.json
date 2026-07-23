@@ -524,7 +524,8 @@
       "tipo": "post2",
       "sem": 5,
       "key": "p8",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-23 16:42:18"
     },
     {
       "cuando": "2026-07-24 10:00",
