@@ -532,7 +532,8 @@
       "tipo": "post2",
       "sem": 5,
       "key": "p9",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-24 12:57:25"
     },
     {
       "cuando": "2026-07-24 16:00",
@@ -570,7 +571,8 @@
       "tipo": "historia",
       "modo": "teaser",
       "archivo": "historia_teaser_w5_p9.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-24 12:57:25"
     }
   ]
 }
