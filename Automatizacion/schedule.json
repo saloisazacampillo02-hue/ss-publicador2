@@ -540,7 +540,8 @@
       "tipo": "post2",
       "sem": 5,
       "key": "p10",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-24 16:46:11"
     },
     {
       "cuando": "2026-07-21 11:00",
