@@ -651,7 +651,8 @@
       "tipo": "historia",
       "modo": "teaser",
       "archivo": "historia_teaser_w6_p1.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-27 12:21:26"
     },
     {
       "cuando": "2026-07-29 11:00",
