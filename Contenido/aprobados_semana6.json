@@ -1,0 +1,131 @@
+{
+  "semana": 6,
+  "nota": "Semana 6. 5 bilingües (expat, carrusel) + 5 locales (español, 1 imagen). Sin em-dash. #6 pensiones.",
+  "piezas": [
+    {
+      "key": "p1",
+      "pilar": "Visas",
+      "lang": "bi",
+      "en": {
+        "titulo": "Bring your family to Colombia",
+        "subtitulo": "Your Visa can open the door for those you love.",
+        "copy": "If you hold a Colombian visa, your spouse and children may qualify for a beneficiary visa. The requirements and timing matter, and doing it right keeps everyone protected. We handle the whole process with you. Message us on WhatsApp."
+      },
+      "es": {
+        "titulo": "Trae a tu familia a Colombia",
+        "subtitulo": "Tu Visa puede abrirle la puerta a los tuyos.",
+        "copy": "Si tienes visa Colombiana, tu pareja e hijos pueden calificar para una visa de beneficiario. Los requisitos y los tiempos importan, y hacerlo bien mantiene a todos protegidos. Nos encargamos de todo el proceso contigo. Escríbenos por WhatsApp."
+      }
+    },
+    {
+      "key": "p2",
+      "pilar": "Centrales de riesgo",
+      "lang": "es",
+      "es": {
+        "titulo": "Salir del reporte: lo que sí funciona",
+        "subtitulo": "No hay atajos mágicos, pero sí caminos legales reales.",
+        "copy": "Nadie puede borrar una deuda real de un día para otro. Lo que sí se puede: exigir que eliminen reportes vencidos, mal notificados o con información errada. Revisamos tu caso y te decimos qué procede de verdad. Escríbenos por WhatsApp."
+      }
+    },
+    {
+      "key": "p3",
+      "pilar": "Inversión inmobiliaria",
+      "lang": "bi",
+      "en": {
+        "titulo": "Buy property from abroad",
+        "subtitulo": "You don't need to be in Colombia to invest safely.",
+        "copy": "With a well drafted power of attorney, you can purchase property in Colombia without traveling. The key is verifying title, taxes and paperwork before you sign. We protect your investment at every step. Message us on WhatsApp."
+      },
+      "es": {
+        "titulo": "Compra propiedad sin estar en el país",
+        "subtitulo": "No necesitas estar en Colombia para invertir seguro.",
+        "copy": "Con un poder bien hecho, puedes comprar propiedad en Colombia sin viajar. La clave está en verificar la tradición, los impuestos y los documentos antes de firmar. Protegemos tu inversión en cada paso. Escríbenos por WhatsApp."
+      }
+    },
+    {
+      "key": "p4",
+      "pilar": "Derecho laboral",
+      "lang": "es",
+      "es": {
+        "titulo": "Aunque renuncies, te deben tu liquidación",
+        "subtitulo": "Renunciar no borra lo que ya te ganaste.",
+        "copy": "Si renuncias, la empresa igual debe pagarte cesantías, intereses, prima y vacaciones proporcionales. Renunciar no significa perder lo que trabajaste. Si las cuentas no cuadran, puedes reclamar. Revisamos tu caso, escríbenos por WhatsApp."
+      }
+    },
+    {
+      "key": "p5",
+      "pilar": "Impuestos",
+      "lang": "bi",
+      "en": {
+        "titulo": "Assets outside Colombia?",
+        "subtitulo": "If you're a tax resident, you may need to report them.",
+        "copy": "Colombian tax residents must declare their worldwide assets, including accounts and property abroad. Not reporting can bring penalties later. Knowing your status early saves you money and stress. We guide you through it. Message us on WhatsApp."
+      },
+      "es": {
+        "titulo": "¿Tienes activos en el exterior?",
+        "subtitulo": "Si eres residente fiscal, quizá debas declararlos.",
+        "copy": "Los residentes fiscales en Colombia deben declarar su patrimonio en el mundo, incluidas cuentas y propiedades en el exterior. No reportarlo puede traer sanciones después. Saber tu situación a tiempo te ahorra dinero y estrés. Te guiamos. Escríbenos por WhatsApp."
+      }
+    },
+    {
+      "key": "p6",
+      "pilar": "Pensiones",
+      "lang": "es",
+      "es": {
+        "titulo": "¿Estás cotizando bien a tu pensión?",
+        "subtitulo": "Las semanas que faltan hoy pesan al pensionarte.",
+        "copy": "Muchos descubren tarde que les faltan semanas o que sus aportes no quedaron bien registrados. Revisar tu historia laboral a tiempo evita perder años de cotización. La revisamos contigo y te decimos cómo corregir. Escríbenos por WhatsApp."
+      }
+    },
+    {
+      "key": "p7",
+      "pilar": "Estructura legal",
+      "lang": "bi",
+      "en": {
+        "titulo": "Contracts that protect you",
+        "subtitulo": "A handshake won't hold up when it matters.",
+        "copy": "Clear contracts with clients, partners and suppliers prevent the disputes that hurt a business most. The right clauses protect your money and your peace of mind from day one. We draft and review them with you. Message us on WhatsApp."
+      },
+      "es": {
+        "titulo": "Contratos que blindan tu empresa",
+        "subtitulo": "Un apretón de manos no te protege cuando importa.",
+        "copy": "Los contratos claros con clientes, socios y proveedores evitan los conflictos que más golpean a un negocio. Las cláusulas correctas protegen tu dinero y tu tranquilidad desde el primer día. Los redactamos y revisamos contigo. Escríbenos por WhatsApp."
+      }
+    },
+    {
+      "key": "p8",
+      "pilar": "Derecho laboral",
+      "lang": "es",
+      "es": {
+        "titulo": "Cesantías: ¿cuándo puedes usarlas?",
+        "subtitulo": "Son tuyas, y hay casos claros para retirarlas.",
+        "copy": "Las cesantías son un ahorro que tu empleador consigna cada año. Puedes retirarlas para vivienda, educación o al quedar sin empleo. Si no las están consignando bien, tienes derecho a reclamar. Revisamos tu caso, escríbenos por WhatsApp."
+      }
+    },
+    {
+      "key": "p9",
+      "pilar": "Marca",
+      "lang": "bi",
+      "en": {
+        "titulo": "Legal and accounting, together",
+        "subtitulo": "One team for your whole life in Colombia.",
+        "copy": "Visas, taxes, property, business and compliance rarely live in separate boxes. At S&S Solutions we handle them under one roof, so nothing falls through the cracks. Building your future in Colombia? Let's talk on WhatsApp."
+      },
+      "es": {
+        "titulo": "Lo legal y lo contable, un solo equipo",
+        "subtitulo": "Un solo equipo para toda tu vida en Colombia.",
+        "copy": "Visas, impuestos, propiedad, empresa y cumplimiento casi nunca van por separado. En S&S Solutions los manejamos bajo un mismo techo, para que nada se te escape. ¿Construyendo tu futuro en Colombia? Hablemos por WhatsApp."
+      }
+    },
+    {
+      "key": "p10",
+      "pilar": "Centrales de riesgo",
+      "lang": "es",
+      "es": {
+        "titulo": "¿Firmaste como codeudor?",
+        "subtitulo": "La deuda ajena puede afectar tu propio reporte.",
+        "copy": "Cuando firmas como codeudor, respondes igual que el deudor principal. Si esa persona deja de pagar, el reporte también cae sobre ti. Antes de firmar, entiende el riesgo, y si ya te afectó, revisa tus opciones. Escríbenos por WhatsApp."
+      }
+    }
+  ]
+}
