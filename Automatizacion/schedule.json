@@ -604,7 +604,8 @@
       "tipo": "post2",
       "sem": 6,
       "key": "p4",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-28 16:21:48"
     },
     {
       "cuando": "2026-07-29 10:00",
