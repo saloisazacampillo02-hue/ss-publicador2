@@ -675,7 +675,8 @@
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_tip_t8.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-28 12:19:27"
     },
     {
       "cuando": "2026-07-30 11:00",
