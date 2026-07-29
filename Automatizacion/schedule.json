@@ -620,7 +620,8 @@
       "tipo": "post2",
       "sem": 6,
       "key": "p6",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-29 16:54:02"
     },
     {
       "cuando": "2026-07-30 10:00",
