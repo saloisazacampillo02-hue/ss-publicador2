@@ -612,7 +612,8 @@
       "tipo": "post2",
       "sem": 6,
       "key": "p5",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-29 11:08:05"
     },
     {
       "cuando": "2026-07-29 16:00",
@@ -662,7 +663,8 @@
       "tipo": "historia",
       "modo": "teaser",
       "archivo": "historia_teaser_w6_p5.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-29 11:08:05"
     },
     {
       "cuando": "2026-07-31 11:00",
