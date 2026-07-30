@@ -688,7 +688,8 @@
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_tip_t9.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-07-30 12:07:48"
     }
   ]
 }
