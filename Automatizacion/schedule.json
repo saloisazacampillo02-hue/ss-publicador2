@@ -696,95 +696,95 @@
    "publicado_en": "2026-07-30 12:07:48"
   },
   {
-   "cuando": "2026-09-02 10:00",
+   "cuando": "2026-09-07 10:00",
    "tipo": "post7",
    "key": "p1",
    "publicado": false
   },
   {
-   "cuando": "2026-09-02 16:00",
+   "cuando": "2026-09-07 16:00",
    "tipo": "post7",
    "key": "p2",
    "publicado": false
   },
   {
-   "cuando": "2026-09-03 10:00",
+   "cuando": "2026-09-08 10:00",
    "tipo": "post7",
    "key": "p3",
    "publicado": false
   },
   {
-   "cuando": "2026-09-03 16:00",
+   "cuando": "2026-09-08 16:00",
    "tipo": "post7",
    "key": "p4",
    "publicado": false
   },
   {
-   "cuando": "2026-09-04 10:00",
+   "cuando": "2026-09-09 10:00",
    "tipo": "post7",
    "key": "p5",
    "publicado": false
   },
   {
-   "cuando": "2026-09-04 16:00",
+   "cuando": "2026-09-09 16:00",
    "tipo": "post7",
    "key": "p6",
    "publicado": false
   },
   {
-   "cuando": "2026-09-07 10:00",
+   "cuando": "2026-09-10 10:00",
    "tipo": "post7",
    "key": "p7",
    "publicado": false
   },
   {
-   "cuando": "2026-09-07 16:00",
+   "cuando": "2026-09-10 16:00",
    "tipo": "post7",
    "key": "p8",
    "publicado": false
   },
   {
-   "cuando": "2026-09-08 10:00",
+   "cuando": "2026-09-11 10:00",
    "tipo": "post7",
    "key": "p9",
    "publicado": false
   },
   {
-   "cuando": "2026-09-08 16:00",
+   "cuando": "2026-09-11 16:00",
    "tipo": "post7",
    "key": "p10",
    "publicado": false
   },
   {
-   "cuando": "2026-09-02 11:00",
+   "cuando": "2026-09-07 11:00",
    "tipo": "historia",
    "modo": "encuesta",
    "archivo": "historia_w7_s1.jpg",
    "publicado": false
   },
   {
-   "cuando": "2026-09-03 11:00",
+   "cuando": "2026-09-08 11:00",
    "tipo": "historia",
    "modo": "tip",
    "archivo": "historia_w7_s2.jpg",
    "publicado": false
   },
   {
-   "cuando": "2026-09-04 11:00",
+   "cuando": "2026-09-09 11:00",
    "tipo": "historia",
    "modo": "encuesta",
    "archivo": "historia_w7_s3.jpg",
    "publicado": false
   },
   {
-   "cuando": "2026-09-07 11:00",
+   "cuando": "2026-09-10 11:00",
    "tipo": "historia",
    "modo": "tip",
    "archivo": "historia_w7_s4.jpg",
    "publicado": false
   },
   {
-   "cuando": "2026-09-08 11:00",
+   "cuando": "2026-09-11 11:00",
    "tipo": "historia",
    "modo": "tip",
    "archivo": "historia_w7_s5.jpg",
