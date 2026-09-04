@@ -1,0 +1,116 @@
+{
+  "semana": 7,
+  "nota": "Semana 7 (3-7 ago). Nuevos formatos: reels sin rostro, carruseles de valor, mito vs realidad, caso real, oferta bilingue. 3 cubos: alcance/valor/conversion.",
+  "piezas": [
+    {
+      "n": 1,
+      "when": "Lun 3 · 10am",
+      "cubo": "Alcance",
+      "formato": "Reel sin rostro",
+      "pilar": "Deudas",
+      "idioma": "ES",
+      "gancho": "No, nadie 'borra' tu Datacrédito. Esto sí funciona.",
+      "contenido": "*No*, nadie 'borra' tu Datacrédito.\nSi te lo prometen, *huye*: es mentira.\nLo que *SÍ* se puede: quitar reportes vencidos.\nO mal notificados, o con datos errados.\nRevisa tu caso con nosotros.",
+      "caption": "¿Te prometieron 'limpiar' tu historial por un pago? Cuidado. Nadie borra deudas reales de un día para otro. Lo que sí es legal: exigir que eliminen reportes vencidos, mal notificados o con información errada. Revisamos tu caso sin promesas falsas. Guárdalo y compártelo con alguien que lo necesite. Escríbenos por WhatsApp."
+    },
+    {
+      "n": 2,
+      "when": "Lun 3 · 4pm",
+      "cubo": "Valor",
+      "formato": "Carrusel de valor",
+      "pilar": "Visas",
+      "idioma": "EN",
+      "gancho": "5 documents to bring your family on a visa",
+      "contenido": "S1: Bringing your family to Colombia? Start here.\nS2: 1) Your valid Colombian visa or residency.\nS3: 2) Apostilled marriage / birth certificates.\nS4: 3) Proof of financial means.\nS5: 4) Valid passports for each member.\nS6: 5) Health insurance coverage.\nS7: Requirements vary by case. Save this and message us.",
+      "caption": "Your visa can open the door for your family too. These are the basics for a beneficiary visa. Every case is different, so we guide you through the exact requirements and timing. Save this for later and send it to someone moving with their family. Message us on WhatsApp."
+    },
+    {
+      "n": 3,
+      "when": "Mar 4 · 10am",
+      "cubo": "Valor",
+      "formato": "Carrusel de valor",
+      "pilar": "Laboral (empresas)",
+      "idioma": "ES",
+      "gancho": "3 errores al despedir que te cuestan una demanda",
+      "contenido": "S1: 3 errores al despedir que terminan en demanda.\nS2: 1) Despedir sin documentar la causa.\nS3: 2) No pagar la liquidación completa y a tiempo.\nS4: 3) Ignorar fueros: maternidad, salud, sindical.\nS5: Un despido mal hecho puede costar reintegro y salarios.\nS6: Antes de desvincular a alguien, asesórate. Escríbenos.",
+      "caption": "Desvincular a un empleado sin cuidar la forma es una de las causas más comunes de demandas laborales. Documentar, liquidar bien y respetar los fueros te protege. Si tienes empresa, guarda esto. ¿Vas a hacer un despido? Asesórate antes por WhatsApp."
+    },
+    {
+      "n": 4,
+      "when": "Mar 4 · 4pm",
+      "cubo": "Alcance",
+      "formato": "Imagen",
+      "pilar": "Impuestos",
+      "idioma": "EN",
+      "gancho": "The DIAN already knows about your accounts abroad",
+      "contenido": "Subtítulo (en imagen): If you're a tax resident, silence can cost you.",
+      "caption": "Colombia exchanges banking information with dozens of countries. If you're a Colombian tax resident, your foreign accounts and assets may need to be declared. Not reporting can bring penalties later. Knowing your status early saves money and stress. Save this if you have assets abroad. Message us on WhatsApp."
+    },
+    {
+      "n": 5,
+      "when": "Mié 5 · 10am",
+      "cubo": "Alcance",
+      "formato": "Reel sin rostro",
+      "pilar": "Visas",
+      "idioma": "EN",
+      "gancho": "The mistake that gets most visas denied",
+      "contenido": "The #1 reason visas get *denied*?\nApplying for the *wrong* visa type.\nOr missing or incorrect *apostilles*.\nSmall errors, *big delays*.\nGet it *right* the first time.",
+      "caption": "Most visa denials aren't about you, they're about paperwork: wrong visa category, missing apostilles, weak proof of funds. Getting it right the first time saves months. We handle it with you. Save and share this. Message us on WhatsApp."
+    },
+    {
+      "n": 6,
+      "when": "Mié 5 · 4pm",
+      "cubo": "Conversión",
+      "formato": "Caso real (carrusel)",
+      "pilar": "Deudas",
+      "idioma": "ES",
+      "gancho": "Llegó reportado por una deuda que ya había pagado",
+      "contenido": "S1: Llegó reportado por una deuda que YA había pagado.\nS2: El banco nunca actualizó el reporte.\nS3: Reunimos las pruebas de pago y radicamos el reclamo.\nS4: Resultado: reporte eliminado, crédito recuperado.\nS5: ¿Te pasa algo parecido? Escríbenos.",
+      "caption": "Caso real (con permiso y sin datos personales): un cliente seguía reportado por una deuda que ya había pagado, porque la entidad no actualizó la información. Con las pruebas correctas logramos que lo eliminaran. Si estás en una situación parecida, escríbenos por WhatsApp."
+    },
+    {
+      "n": 7,
+      "when": "Jue 6 · 10am",
+      "cubo": "Valor",
+      "formato": "Carrusel de valor",
+      "pilar": "Estructura legal",
+      "idioma": "EN",
+      "gancho": "How much it really costs to open a company in Colombia",
+      "contenido": "S1: What it really costs to open a company here.\nS2: Registration and chamber of commerce fees.\nS3: Legal setup: bylaws and structure.\nS4: Accounting from day one (monthly).\nS5: Optional: tax and compliance advice.\nS6: Ranges vary by activity. We quote your exact case.",
+      "caption": "Opening a company in Colombia is very doable as a foreigner, but the real cost is more than the registration fee: legal setup, accounting and compliance from day one matter. We map your exact numbers before you spend. Save this and message us on WhatsApp."
+    },
+    {
+      "n": 8,
+      "when": "Jue 6 · 4pm",
+      "cubo": "Valor",
+      "formato": "Carrusel (mito vs realidad)",
+      "pilar": "Inversión inmobiliaria",
+      "idioma": "ES",
+      "gancho": "Comprar sobre planos siempre es más barato: mito vs realidad",
+      "contenido": "S1: Comprar sobre planos: mito vs realidad.\nS2: Mito: siempre es más barato y sin riesgo.\nS3: Realidad: suele costar menos, pero hay riesgos.\nS4: Riesgos: retrasos, cambios de proyecto, letra menuda.\nS5: Clave: revisar el contrato y al constructor antes de firmar.\nS6: Antes de comprar sobre planos, que un abogado lo revise.",
+      "caption": "Comprar sobre planos puede ser una gran inversión, pero 'más barato' no significa 'sin riesgo'. Retrasos, cambios en el proyecto y cláusulas en letra menuda son más comunes de lo que crees. Revisar el contrato y al constructor antes de firmar te protege. Guárdalo. ¿Vas a comprar sobre planos? Escríbenos."
+    },
+    {
+      "n": 9,
+      "when": "Vie 7 · 10am",
+      "cubo": "Alcance",
+      "formato": "Reel sin rostro",
+      "pilar": "Visas",
+      "idioma": "EN",
+      "gancho": "How long can you really stay in Colombia without a visa?",
+      "contenido": "How long can you *really* stay?\nA tourist stamp is usually *90 days*.\nExtendable up to *180 days* a year.\n*Overstay* means fines and problems later.\nPlanning to stay longer? *Get a visa*.",
+      "caption": "One of the most common questions we get: how long can I stay in Colombia without a visa? A tourist entry is usually 90 days, extendable up to 180 per calendar year. Overstaying brings fines and can complicate future entries or visa applications. If you plan to stay longer, a proper visa is the way. Save this and message us on WhatsApp."
+    },
+    {
+      "n": 10,
+      "when": "Vie 7 · 4pm",
+      "cubo": "Conversión",
+      "formato": "Oferta bilingüe",
+      "pilar": "Marca",
+      "idioma": "EN+ES",
+      "gancho": "Así es una asesoría con S&S / How we work",
+      "contenido": "ES S1: Lo legal y lo contable, un solo equipo.\nES S2: Diagnóstico de tu caso, sin enredos.\nES S3: Un plan claro y acompañamiento real.\nEN S1: Legal and accounting, one team.\nEN S2: A clear diagnosis, no jargon.\nEN S3: A real plan and hands-on support.",
+      "caption": "EN: Visas, taxes, property, business and debt rarely come one at a time. At S&S Solutions we handle them under one roof. Ready for a clear plan? Message us on WhatsApp.\n\nES: Visas, impuestos, propiedad, empresa y deudas casi nunca llegan de a uno. En S&S los manejamos bajo un mismo techo. ¿Listo para un plan claro? Escríbenos por WhatsApp."
+    }
+  ]
+}

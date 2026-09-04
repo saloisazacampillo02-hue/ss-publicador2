@@ -267,6 +267,58 @@ def publish_piece2(env, data, key, images=None):
 
 HISTORIAS = PIEZAS / "historias"
 
+def ig_reel(ig_id, token, video_url, caption):
+    r = http_json(f"{IG_HOST}/{GV}/{ig_id}/media",
+                  {"media_type": "REELS", "video_url": video_url,
+                   "caption": caption, "access_token": token})
+    return r["id"]
+
+def publish_carousel(env, images, caption):
+    """Carrusel de N imágenes (carruseles de valor, casos reales)."""
+    ig_id = env["IG_USER_ID"]; token = env["IG_ACCESS_TOKEN"]
+    print(f"\n=== Carrusel ({len(images)} slides) ===")
+    urls = [upload_public(p) for p in images]
+    children = [ig_child(ig_id, token, u) for u in urls]
+    parent = ig_carousel(ig_id, token, children, caption)
+    ig_wait_ready(token, parent)
+    media_id = ig_publish(ig_id, token, parent)
+    print(f"✅ Instagram (carrusel {len(images)}) media_id={media_id}")
+    pid = env.get("META_PAGE_ID"); ptok = env.get("META_PAGE_TOKEN")
+    if pid and ptok:
+        try:
+            photo_ids = [fb_photo_unpublished(pid, ptok, u) for u in urls]
+            post_id = fb_post_carousel(pid, ptok, photo_ids, caption)
+            print(f"✅ Facebook post_id={post_id}")
+        except Exception as e:
+            print(f"ℹ️  Facebook carrusel omitido: {e}")
+    return media_id
+
+def publish_image(env, image, caption):
+    """Una sola imagen + caption (para piezas de 1 imagen en semana 7)."""
+    ig_id = env["IG_USER_ID"]; token = env["IG_ACCESS_TOKEN"]
+    print("\n=== Imagen (1) ===")
+    url = upload_public(image)
+    cont = ig_single(ig_id, token, url, caption)
+    ig_wait_ready(token, cont)
+    media_id = ig_publish(ig_id, token, cont)
+    print(f"✅ Instagram (1 imagen) media_id={media_id}")
+    pid = env.get("META_PAGE_ID"); ptok = env.get("META_PAGE_TOKEN")
+    if pid and ptok:
+        try: print(f"✅ Facebook photo_id={fb_photo_published(pid, ptok, url, caption)}")
+        except Exception as e: print(f"ℹ️  Facebook omitido: {e}")
+    return media_id
+
+def publish_reel(env, video_path, caption):
+    """Reel sin rostro (video 9:16). El audio se agrega luego en Instagram."""
+    ig_id = env["IG_USER_ID"]; token = env["IG_ACCESS_TOKEN"]
+    print(f"\n=== Reel ===")
+    url = upload_public(video_path)
+    cont = ig_reel(ig_id, token, url, caption)
+    ig_wait_ready(token, cont, timeout=300)   # el video tarda más en procesar
+    media_id = ig_publish(ig_id, token, cont)
+    print(f"✅ Instagram (reel) media_id={media_id}")
+    return media_id
+
 def publish_historia(env, image_path):
     """Publica una HISTORIA 9:16 en Instagram (y FB si está configurado).
     image_path: ruta a un JPG ya renderizado (teaser o tip).

@@ -62,6 +62,14 @@ def _week_data(sem):
     return _WK[sem]
 
 
+_W7=None
+def _week7():
+    global _W7
+    if _W7 is None:
+        f=CONT/"aprobados_semana7.json"
+        _W7={f"p{p['n']}":p for p in json.load(open(f))["piezas"]} if f.exists() else {}
+    return _W7
+
 def _targets(it, d1, d2):
     """Devuelve [(src_en_Piezas, dst_en_Calendario), ...] en orden EN, ES."""
     dt = datetime.datetime.strptime(it["cuando"], "%Y-%m-%d %H:%M")
@@ -82,6 +90,20 @@ def _targets(it, d1, d2):
             out.append((PIEZAS / f"{pref}_ES.jpg", wk / "Feed" / f"{stamp}_{key}_{pilar}_2ES.jpg"))
         else:
             out.append((PIEZAS / f"{pref}_ES.jpg", wk / "Feed" / f"{stamp}_{key}_{pilar}.jpg"))
+    elif tipo == "post7":
+        import glob as _g
+        key = it["key"]; p = _week7().get(key, {}); fmt = p.get("formato", "")
+        sk = f"{stamp}_{key}"
+        if "Reel" in fmt:
+            out.append((PIEZAS / f"reel_w7_{key}.mp4", wk / "Feed" / f"{sk}_reel.mp4"))
+        elif "Imagen" in fmt:
+            out.append((PIEZAS / f"pieza_w7_{key}_EN.jpg", wk / "Feed" / f"{sk}.jpg"))
+        elif "Oferta" in fmt:
+            out.append((PIEZAS / f"pieza_w7_{key}_EN.jpg", wk / "Feed" / f"{sk}_1EN.jpg"))
+            out.append((PIEZAS / f"pieza_w7_{key}_ES.jpg", wk / "Feed" / f"{sk}_2ES.jpg"))
+        else:
+            for i, sp in enumerate(sorted(_g.glob(str(PIEZAS / f"carr_w7_{key}_*.jpg"))), 1):
+                out.append((Path(sp), wk / "Feed" / f"{sk}_s{i:02d}.jpg"))
     else:
         key = it["pieza"]; p = d1.get(key, {}); pilar = _safe(p.get("pilar", ""))
         out.append((PIEZAS / f"pieza_{key}_EN.jpg", wk / "Feed" / f"{stamp}_{key}_{pilar}_1EN.jpg"))

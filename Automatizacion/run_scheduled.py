@@ -71,6 +71,19 @@ def main():
                         dfile = mp.APROB2 if sem == 2 else (mp.APROB2.parent / f"aprobados_semana{sem}.json")
                         data_w = json.load(open(dfile))
                         mp.publish_piece2(env, data_w, it["key"], images=imgs)
+                    elif tipo == "post7":
+                        p7 = json.load(open(mp.APROB2.parent / "aprobados_semana7.json"))
+                        piece = next(x for x in p7["piezas"] if f"p{x['n']}" == it["key"])
+                        fmt = piece["formato"]; idi = piece.get("idioma", "es")
+                        hashtags = mp.HASH_LOCAL if idi == "es" else mp.HASH
+                        caption = piece["caption"] + "\n\n" + hashtags
+                        paths = [str(x) for x in imgs]
+                        if "Reel" in fmt:
+                            mp.publish_reel(env, paths[0], caption)
+                        elif "Imagen" in fmt:
+                            mp.publish_image(env, paths[0], caption)
+                        else:
+                            mp.publish_carousel(env, paths, caption)
                     else:
                         mp.publish_piece(env, data, it["pieza"], images=imgs)
                     it["publicado"] = True
