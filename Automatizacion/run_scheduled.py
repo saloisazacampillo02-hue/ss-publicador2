@@ -75,7 +75,7 @@ def main():
                         p7 = json.load(open(mp.APROB2.parent / "aprobados_semana7.json"))
                         piece = next(x for x in p7["piezas"] if f"p{x['n']}" == it["key"])
                         fmt = piece["formato"]; idi = piece.get("idioma", "es")
-                        hashtags = mp.HASH_LOCAL if idi == "es" else mp.HASH
+                        hashtags = piece.get("hash") or (mp.HASH_LOCAL if idi == "es" else mp.HASH)
                         caption = piece["caption"] + "\n\n" + hashtags
                         paths = [str(x) for x in imgs]
                         if "Reel" in fmt:
