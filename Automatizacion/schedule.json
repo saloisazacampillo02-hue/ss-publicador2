@@ -789,6 +789,12 @@
    "modo": "tip",
    "archivo": "historia_w7_s5.jpg",
    "publicado": false
+  },
+  {
+   "cuando": "2026-09-07 13:00",
+   "tipo": "post7",
+   "key": "p12",
+   "publicado": false
   }
  ]
 }
