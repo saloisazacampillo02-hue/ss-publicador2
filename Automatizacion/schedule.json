@@ -727,7 +727,8 @@
       "cuando": "2026-09-09 10:00",
       "tipo": "post7",
       "key": "p5",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-09-09 10:00:20"
     },
     {
       "cuando": "2026-09-09 16:00",
