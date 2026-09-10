@@ -748,7 +748,8 @@
       "cuando": "2026-09-10 16:00",
       "tipo": "post7",
       "key": "p8",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-09-10 16:00:23"
     },
     {
       "cuando": "2026-09-11 10:00",
