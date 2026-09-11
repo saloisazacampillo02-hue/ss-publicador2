@@ -793,7 +793,8 @@
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_w7_s5.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-09-11 11:00:20"
     },
     {
       "cuando": "2026-09-07 13:00",
