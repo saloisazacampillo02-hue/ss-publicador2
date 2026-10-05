@@ -15,6 +15,7 @@ concurrency:
 jobs:
   publicar:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     env:
       TZ: America/Bogota
       IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -36,10 +37,11 @@ jobs:
       - name: Publicar lo pendiente y vencido
         run: python Automatizacion/run_scheduled.py
 
-      - name: Guardar el estado (schedule + calendario)
+      - name: Guardar el estado (solo schedule.json)
         run: |
           git config user.name "ss-publisher-bot"
           git config user.email "bot@ssolutions.local"
-          git add -A
-          git commit -m "auto: estado de publicaciones" || echo "sin cambios que guardar"
-          git push
+          git add Automatizacion/schedule.json
+          git commit -m "auto: estado de publicaciones" || { echo "sin cambios que guardar"; exit 0; }
+          git -c rebase.autoStash=true pull --rebase origin main || true
+          git push || { git -c rebase.autoStash=true pull --rebase origin main; git push; }
