@@ -1,0 +1,171 @@
+<meta charset="utf-8">
+<style>
+  :root{color-scheme:light}
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{--navy:#09172E;--navy2:#0f2440;--gold:#D5B36C;--muted:#9fb0c6;--red:#e0574f;--amber:#e0a23a;--green:#3fae77}
+  body{background:var(--navy);color:#fff;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:620px;margin:0 auto;padding:22px 18px 40px;min-height:100vh}
+  .serif{font-family:Georgia,'Times New Roman',serif}
+  .logo{text-align:center;letter-spacing:.14em;color:var(--gold);font-size:13px;font-weight:600;margin-bottom:6px}
+  .eyebrow{color:var(--gold);font-size:12px;letter-spacing:.12em;text-transform:uppercase;text-align:center}
+  h1{font-size:26px;font-weight:600;text-align:center;margin:8px 0 6px;line-height:1.25}
+  .lead{color:var(--muted);text-align:center;font-size:15px;margin-bottom:22px}
+  .card{background:var(--navy2);border:1px solid rgba(213,179,108,.25);border-radius:16px;padding:22px}
+  label.fld{display:block;font-size:13px;color:var(--muted);margin:14px 0 6px}
+  input{width:100%;padding:13px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.05);color:#fff;font-size:15px}
+  input::placeholder{color:#7f8ea6}
+  input:focus{outline:none;border-color:var(--gold)}
+  .btn{display:block;width:100%;margin-top:20px;padding:15px;border:none;border-radius:12px;background:var(--gold);color:var(--navy);font-size:16px;font-weight:700;cursor:pointer}
+  .btn:active{transform:scale(.99)}
+  .btn.ghost{background:transparent;color:var(--gold);border:1px solid var(--gold)}
+  .bar{height:7px;background:rgba(255,255,255,.1);border-radius:6px;overflow:hidden;margin-bottom:6px}
+  .bar>span{display:block;height:100%;background:var(--gold);width:0;transition:width .35s}
+  .count{font-size:12px;color:var(--muted);text-align:right;margin-bottom:18px}
+  .qtext{font-size:20px;font-weight:600;margin:6px 0 20px;line-height:1.3}
+  .qnote{font-size:12.5px;color:var(--muted);margin-top:-12px;margin-bottom:20px}
+  .opt{display:flex;align-items:center;gap:12px;width:100%;padding:15px 16px;margin-bottom:11px;border-radius:12px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.04);color:#fff;font-size:16px;cursor:pointer;text-align:left}
+  .opt:hover{border-color:var(--gold)}
+  .dot{width:22px;height:22px;border-radius:50%;flex:0 0 auto;border:2px solid}
+  .opt.si .dot{border-color:var(--green)} .opt.medias .dot{border-color:var(--amber)} .opt.no .dot{border-color:var(--red)}
+  .back{background:none;border:none;color:var(--muted);font-size:13px;cursor:pointer;margin-top:4px}
+  .center{text-align:center}
+  .gaugewrap{display:flex;justify-content:center;margin:6px 0 4px}
+  .score{font-family:Georgia,serif;font-size:46px;font-weight:700}
+  .risk{display:inline-block;padding:6px 16px;border-radius:999px;font-weight:700;font-size:15px;margin:6px 0 4px}
+  .areas{margin:20px 0 6px}
+  .arow{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:14px}
+  .tag{margin-left:auto;font-size:12px;font-weight:700;padding:3px 10px;border-radius:999px}
+  .muted{color:var(--muted)}
+  .small{font-size:12px;color:var(--muted);text-align:center;margin-top:16px;line-height:1.5}
+  .hidden{display:none}
+</style>
+
+<div class="wrap">
+  <div class="logo">S&amp;S SOLUTIONS</div>
+
+  <div id="intro" class="card">
+    <div class="eyebrow">Diagnóstico laboral exprés</div>
+    <h1 class="serif">¿Qué tan expuesta está tu empresa a una demanda laboral?</h1>
+    <p class="lead">10 preguntas. 2 minutos. Al final sabrás tu nivel de riesgo y qué te falta para estar en regla en 2026.</p>
+    <label class="fld">Tu nombre</label>
+    <input id="nombre" placeholder="Ej: Carlos Ramírez" />
+    <label class="fld">Nombre de tu empresa</label>
+    <input id="empresa" placeholder="Ej: Distribuciones XYZ" />
+    <button class="btn" onclick="start()">Comenzar diagnóstico</button>
+    <p class="small">Es gratis y sin compromiso. Al terminar podrás escribirnos para una asesoría.</p>
+  </div>
+
+  <div id="quiz" class="hidden">
+    <div class="bar"><span id="prog"></span></div>
+    <div class="count" id="count"></div>
+    <div class="card">
+      <div class="eyebrow" id="area"></div>
+      <div class="qtext" id="q"></div>
+      <div id="opts"></div>
+      <button class="back" onclick="back()">&larr; Volver</button>
+    </div>
+  </div>
+
+  <div id="result" class="hidden">
+    <div class="card center">
+      <div class="eyebrow">Tu resultado</div>
+      <div class="gaugewrap">
+        <svg width="190" height="120" viewBox="0 0 190 120">
+          <path d="M20 110 A75 75 0 0 1 170 110" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="16" stroke-linecap="round"/>
+          <path id="arc" d="M20 110 A75 75 0 0 1 170 110" fill="none" stroke="var(--gold)" stroke-width="16" stroke-linecap="round" stroke-dasharray="236" stroke-dashoffset="236" style="transition:stroke-dashoffset 1s ease,stroke 1s"/>
+        </svg>
+      </div>
+      <div class="score"><span id="pct">0</span>%</div>
+      <div class="muted" style="font-size:13px;margin-bottom:4px">de cumplimiento laboral</div>
+      <div><span id="risk" class="risk"></span></div>
+      <p id="verdict" class="lead" style="margin:12px 0 0"></p>
+      <div class="areas" id="arealist"></div>
+      <a id="wa" class="btn" href="#" target="_blank" rel="noopener">Quiero mi diagnóstico con S&amp;S</a>
+      <button class="btn ghost" onclick="location.reload()">Volver a empezar</button>
+      <p class="small">S&amp;S Solutions · Abogados y Contadores · Colombia<br>WhatsApp +57 300 276 3135 · @ssolutionscol</p>
+    </div>
+  </div>
+</div>
+
+<script>
+var WA="573002763135";
+var Q=[
+ {a:"Reglamento interno",t:"¿Tu Reglamento Interno de Trabajo está actualizado a 2026 e incluye el debido proceso disciplinario?",n:"La reforma laboral (Ley 2466 de 2025) obliga a garantizar el debido proceso en toda sanción."},
+ {a:"Contratos",t:"¿Tus contratos de trabajo están actualizados y corresponden a lo que realmente hace cada empleado?",n:"Un contrato desfasado de la operación real es una de las causas más comunes de demanda."},
+ {a:"Jornada",t:"¿Ya ajustaste la jornada laboral a las 42 horas semanales?",n:"Rige desde el 15 de julio de 2026 (Ley 2101 de 2021 y Ley 2466 de 2025)."},
+ {a:"Recargos",t:"¿Actualizaste los recargos: jornada nocturna desde las 7 p.m. y recargo dominical al 90%?",n:"Cambios vigentes en 2026 por la reforma laboral."},
+ {a:"SST",t:"¿Tienes implementado el SG-SST cumpliendo los estándares mínimos (Resolución 0312 de 2019)?",n:"Su incumplimiento expone a sanciones del Ministerio del Trabajo."},
+ {a:"SST",t:"¿Tienes la matriz de peligros y la matriz legal firmadas por un profesional en SST?",n:""},
+ {a:"Comités",t:"¿Tienes conformados y funcionando el COPASST (o Vigía) y el Comité de Convivencia Laboral?",n:"Son obligatorios según el tamaño de la empresa."},
+ {a:"Afiliaciones",t:"¿Todos tus empleados están afiliados y al día en EPS, pensión, ARL y caja de compensación?",n:""},
+ {a:"Documentación",t:"¿El expediente de cada empleado está completo (contrato, cédula, exámenes médicos, soportes)?",n:""},
+ {a:"Despidos",t:"¿Cuando despides o liquidas a alguien sigues un procedimiento que te proteja de una demanda?",n:"El 50% de las demandas en pymes son por despidos sin justa causa."},
+];
+var ans=new Array(Q.length).fill(null);
+var i=0, nombre="", empresa="";
+
+function start(){
+  nombre=(document.getElementById('nombre').value||"").trim();
+  empresa=(document.getElementById('empresa').value||"").trim();
+  document.getElementById('intro').classList.add('hidden');
+  document.getElementById('quiz').classList.remove('hidden');
+  render();
+}
+function render(){
+  var q=Q[i];
+  document.getElementById('area').textContent=q.a;
+  document.getElementById('q').textContent=q.t;
+  document.getElementById('count').textContent="Pregunta "+(i+1)+" de "+Q.length;
+  document.getElementById('prog').style.width=((i)/Q.length*100)+"%";
+  var opts=[["si","Sí, al día",2],["medias","Más o menos / no estoy seguro",1],["no","No",0]];
+  var h="";
+  opts.forEach(function(o){ h+='<button class="opt '+o[0]+'" onclick="pick('+o[2]+')"><span class="dot"></span>'+o[1]+'</button>'; });
+  if(q.n) h+='<div class="qnote">'+q.n+'</div>';
+  document.getElementById('opts').innerHTML=h;
+}
+function pick(v){ ans[i]=v; if(i<Q.length-1){i++;render();} else finish(); }
+function back(){ if(i>0){i--;render();} else {document.getElementById('quiz').classList.add('hidden');document.getElementById('intro').classList.remove('hidden');} }
+
+function finish(){
+  document.getElementById('prog').style.width="100%";
+  var got=ans.reduce(function(a,b){return a+(b||0);},0);
+  var pct=Math.round(got/(Q.length*2)*100);
+  var band;
+  if(pct>=85) band={l:"Riesgo bajo",c:"var(--green)",v:"Vas muy bien. Afina los últimos detalles y quedas blindado."};
+  else if(pct>=60) band={l:"Riesgo medio",c:"var(--amber)",v:"Tienes bases, pero hay vacíos que te pueden costar una demanda o una sanción."};
+  else if(pct>=35) band={l:"Riesgo alto",c:"#e0754f",v:"Estás expuesto. Varios frentes están sin cumplir y eso es dinero en riesgo."};
+  else band={l:"Riesgo crítico",c:"var(--red)",v:"Te falta casi todo. Tu empresa está muy expuesta a demandas y sanciones. Hay que actuar ya."};
+
+  document.getElementById('quiz').classList.add('hidden');
+  document.getElementById('result').classList.remove('hidden');
+  var r=document.getElementById('risk'); r.textContent=band.l; r.style.background=band.c; r.style.color="#09172E";
+  document.getElementById('verdict').textContent=band.v;
+  var arc=document.getElementById('arc'); arc.style.stroke=band.c;
+
+  // animar medidor y numero
+  var dash=236;
+  setTimeout(function(){ arc.style.strokeDashoffset=(dash-dash*pct/100); },120);
+  var cur=0; var step=Math.max(1,Math.round(pct/28));
+  var iv=setInterval(function(){ cur+=step; if(cur>=pct){cur=pct;clearInterval(iv);} document.getElementById('pct').textContent=cur; },28);
+
+  // desglose por area (peor respuesta por area)
+  var areas={};
+  Q.forEach(function(q,k){ var a=q.a; if(!(a in areas)) areas[a]=2; areas[a]=Math.min(areas[a],ans[k]||0); });
+  var html="";
+  Object.keys(areas).forEach(function(a){
+    var v=areas[a], tag, col;
+    if(v>=2){tag="En regla";col="var(--green)";} else if(v==1){tag="Por revisar";col="var(--amber)";} else {tag="Pendiente";col="var(--red)";}
+    html+='<div class="arow"><span class="dot" style="width:10px;height:10px;border:none;background:'+col+'"></span>'+a+'<span class="tag" style="background:'+col+';color:#09172E">'+tag+'</span></div>';
+  });
+  document.getElementById('arealist').innerHTML=html;
+
+  var faltan=Object.keys(areas).filter(function(a){return areas[a]<2;}).length;
+  var msg="Hola S&S, acabo de hacer el diagnóstico laboral";
+  if(empresa) msg+=" para "+empresa;
+  msg+=". Mi resultado fue "+pct+"% de cumplimiento ("+band.l+")";
+  if(faltan>0) msg+=" y tengo "+faltan+" áreas por resolver";
+  msg+=". Quiero una asesoría.";
+  if(nombre) msg+=" Soy "+nombre+".";
+  document.getElementById('wa').href="https://wa.me/"+WA+"?text="+encodeURIComponent(msg);
+}
+</script>
