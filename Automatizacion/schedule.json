@@ -864,7 +864,8 @@
       "cuando": "2026-10-23 16:00",
       "tipo": "post7",
       "key": "p27",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-10-23 16:00:28"
     },
     {
       "cuando": "2026-10-26 10:00",
