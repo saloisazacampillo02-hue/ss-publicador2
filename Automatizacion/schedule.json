@@ -899,7 +899,8 @@
       "cuando": "2026-10-28 10:00",
       "tipo": "post7",
       "key": "p32",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-10-28 10:00:25"
     },
     {
       "cuando": "2026-10-28 16:00",
