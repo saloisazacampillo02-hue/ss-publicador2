@@ -980,6 +980,41 @@
    "tipo": "post7",
    "key": "p47",
    "publicado": false
+  },
+  {
+   "cuando": "2026-11-02 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_sem2026-11-02_1_lun.jpg",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-03 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_sem2026-11-02_2_mar.jpg",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-04 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_sem2026-11-02_3_mie.jpg",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-05 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_sem2026-11-02_4_jue.jpg",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-06 11:00",
+   "tipo": "historia",
+   "modo": "tip",
+   "archivo": "historia_sem2026-11-02_5_vie.jpg",
+   "publicado": false
   }
  ]
 }
