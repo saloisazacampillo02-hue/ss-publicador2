@@ -920,6 +920,66 @@
    "tipo": "post7",
    "key": "p37",
    "publicado": false
+  },
+  {
+   "cuando": "2026-11-02 10:00",
+   "tipo": "post7",
+   "key": "p38",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-02 16:00",
+   "tipo": "post7",
+   "key": "p39",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-03 10:00",
+   "tipo": "post7",
+   "key": "p40",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-03 16:00",
+   "tipo": "post7",
+   "key": "p41",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-04 10:00",
+   "tipo": "post7",
+   "key": "p42",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-04 16:00",
+   "tipo": "post7",
+   "key": "p43",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-05 10:00",
+   "tipo": "post7",
+   "key": "p44",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-05 16:00",
+   "tipo": "post7",
+   "key": "p45",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-06 10:00",
+   "tipo": "post7",
+   "key": "p46",
+   "publicado": false
+  },
+  {
+   "cuando": "2026-11-06 16:00",
+   "tipo": "post7",
+   "key": "p47",
+   "publicado": false
   }
  ]
 }
