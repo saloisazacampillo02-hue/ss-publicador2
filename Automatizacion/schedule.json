@@ -913,7 +913,8 @@
       "cuando": "2026-10-29 10:00",
       "tipo": "post7",
       "key": "p34",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-10-29 10:00:23"
     },
     {
       "cuando": "2026-10-29 16:00",
