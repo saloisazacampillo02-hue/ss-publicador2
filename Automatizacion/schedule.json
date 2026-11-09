@@ -941,7 +941,8 @@
       "cuando": "2026-11-09 13:05",
       "tipo": "post7",
       "key": "p38",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-11-09 13:15:22"
     },
     {
       "cuando": "2026-11-09 16:00",
