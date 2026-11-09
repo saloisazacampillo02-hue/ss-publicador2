@@ -938,12 +938,10 @@
       "publicado_en": "2026-10-30 16:00:25"
     },
     {
-      "cuando": "2026-11-09 10:00",
+      "cuando": "2026-11-09 13:05",
       "tipo": "post7",
       "key": "p38",
-      "publicado": false,
-      "intentos": 3,
-      "ultimo_error": "2026-11-09 10:30 \n❌ Error HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Friday, 06-Nov-26 11:21:17 PST. The current time is Monday, 09-Nov-26 07:30:22 PST.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AcpZX94ZJj3kMVM3BrOHyY2\"}}"
+      "publicado": false
     },
     {
       "cuando": "2026-11-09 16:00",
@@ -1000,13 +998,11 @@
       "publicado": false
     },
     {
-      "cuando": "2026-11-09 11:00",
+      "cuando": "2026-11-09 13:20",
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_sem2026-11-02_1_lun.jpg",
-      "publicado": false,
-      "intentos": 3,
-      "ultimo_error": "2026-11-09 11:30 \n❌ Error HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Friday, 06-Nov-26 11:21:17 PST. The current time is Monday, 09-Nov-26 08:30:25 PST.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AGnshA9UYCqqjWm8HMR5taX\"}}"
+      "publicado": false
     },
     {
       "cuando": "2026-11-10 11:00",
