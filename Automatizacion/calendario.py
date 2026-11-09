@@ -16,7 +16,7 @@ Uso manual:
   python3 calendario.py            # asegura la vista por semanas
   python3 calendario.py --limpiar  # + limpia (>14 días a Papelera)
 """
-import json, shutil, datetime, argparse
+import os, json, shutil, datetime, argparse
 from pathlib import Path
 
 BASE = Path(__file__).parent
@@ -123,6 +123,40 @@ def paths_for(it):
     Las crea desde Piezas/ si faltan, sin sobrescribir reemplazos manuales."""
     d1, d2 = _load()
     return [_ensure(src, dst) for src, dst in _targets(it, d1, d2)]
+
+
+def _en_git(path):
+    """True si el archivo está guardado en el repositorio (y por tanto existe en GitHub)."""
+    import subprocess
+    try:
+        r = subprocess.run(["git", "ls-files", "--error-unmatch", str(path)],
+                           cwd=str(Path(path).parent), capture_output=True)
+        return r.returncode == 0
+    except Exception:
+        return False
+
+
+def paths_publicables(it):
+    """Rutas para publicar. En la nube, Instagram descarga cada archivo desde GitHub,
+    así que solo sirven archivos guardados en el repositorio: se usa la copia del
+    Calendario si está en GitHub (respeta reemplazos manuales) y si no, el original
+    de Piezas/. Fuera de la nube se comporta igual que paths_for."""
+    d1, d2 = _load()
+    pares = _targets(it, d1, d2)
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return [_ensure(src, dst) for src, dst in pares]
+    out = []
+    for src, dst in pares:
+        _ensure(src, dst)
+        if dst.exists() and _en_git(dst):
+            out.append(dst)
+        elif src.exists() and _en_git(src):
+            out.append(src)
+        else:
+            raise RuntimeError(f"el archivo no está en GitHub: {src.name} (falta commit y push de la semana)")
+    if not out:
+        raise RuntimeError("la pieza no tiene archivos")
+    return out
 
 
 def rebuild():

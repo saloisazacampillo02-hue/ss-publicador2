@@ -38,6 +38,7 @@ jobs:
         run: python Automatizacion/run_scheduled.py
 
       - name: Guardar el estado (solo schedule.json)
+        if: always()
         run: |
           git config user.name "ss-publisher-bot"
           git config user.email "bot@ssolutions.local"
@@ -45,3 +46,12 @@ jobs:
           git commit -m "auto: estado de publicaciones" || { echo "sin cambios que guardar"; exit 0; }
           git -c rebase.autoStash=true pull --rebase origin main || true
           git push || { git -c rebase.autoStash=true pull --rebase origin main; git push; }
+
+      - name: Avisar si algo no se publico
+        if: always()
+        run: |
+          if [ -s Automatizacion/errores_corrida.txt ]; then
+            echo "::error::Hubo piezas que no se pudieron publicar"
+            cat Automatizacion/errores_corrida.txt
+            exit 1
+          fi

@@ -16,6 +16,8 @@ BASE = Path(__file__).parent
 SCHED = BASE / "schedule.json"
 LOG = BASE / "publicaciones.log"
 LOCK = BASE / "run.lock"
+ERRORES = BASE / "errores_corrida.txt"   # lo lee el flujo de GitHub para avisar
+MAX_INTENTOS = 3                          # tras 3 fallos la pieza se deja quieta
 LOCK_STALE = 1800  # 30 min: si un lock es más viejo, se considera abandonado
 
 def log(msg):
@@ -55,15 +57,17 @@ def main():
         now = datetime.datetime.now()
         changed = False
         for it in sched["items"]:
-            if it.get("publicado"):
+            if it.get("publicado") or it.get("pausado"):
                 continue
+            if it.get("intentos", 0) >= MAX_INTENTOS:
+                continue  # ya falló varias veces: queda a la espera de revisión
             cuando = datetime.datetime.strptime(it["cuando"], "%Y-%m-%d %H:%M")
             if cuando <= now:
                 tipo = it.get("tipo", "post")
                 nombre = it.get("archivo") or it.get("key") or it.get("pieza")
                 try:
                     log(f"▶ Publicando [{tipo}] {nombre} (programada {it['cuando']})")
-                    imgs = calendario.paths_for(it)  # rutas en el Calendario (fuente)
+                    imgs = calendario.paths_publicables(it)  # solo archivos que existen en GitHub
                     if tipo == "historia":
                         mp.publish_historia(env, str(imgs[0]))
                     elif tipo == "post2":
@@ -93,6 +97,11 @@ def main():
                     log(f"✅ OK {nombre}")
                 except (Exception, SystemExit) as e:
                     log(f"❌ ERROR {nombre}: {e}")
+                    it["intentos"] = it.get("intentos", 0) + 1
+                    it["ultimo_error"] = f"{now:%Y-%m-%d %H:%M} {str(e)[:300]}"
+                    save(sched)
+                    with open(ERRORES, "a") as f:
+                        f.write(f"{it['cuando']} {nombre} (intento {it['intentos']} de {MAX_INTENTOS}): {e}\n")
         if not changed:
             log("Sin piezas pendientes vencidas.")
         # Mantener la vista por semanas al día y limpiar (>14 días -> Papelera)

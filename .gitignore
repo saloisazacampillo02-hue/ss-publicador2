@@ -4,3 +4,4 @@ run.lock
 .DS_Store
 __pycache__/
 *.pyc
+Automatizacion/errores_corrida.txt
