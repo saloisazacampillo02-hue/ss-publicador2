@@ -938,114 +938,99 @@
       "publicado_en": "2026-10-30 16:00:25"
     },
     {
-      "cuando": "2026-11-02 10:00",
+      "cuando": "2026-11-09 10:00",
       "tipo": "post7",
       "key": "p38",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-02 16:00",
+      "cuando": "2026-11-09 16:00",
       "tipo": "post7",
       "key": "p39",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-03 10:00",
+      "cuando": "2026-11-10 10:00",
       "tipo": "post7",
       "key": "p40",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-03 16:00",
+      "cuando": "2026-11-10 16:00",
       "tipo": "post7",
       "key": "p41",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-04 10:00",
+      "cuando": "2026-11-11 10:00",
       "tipo": "post7",
       "key": "p42",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-04 16:00",
+      "cuando": "2026-11-11 16:00",
       "tipo": "post7",
       "key": "p43",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-05 10:00",
+      "cuando": "2026-11-12 10:00",
       "tipo": "post7",
       "key": "p44",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-05 16:00",
+      "cuando": "2026-11-12 16:00",
       "tipo": "post7",
       "key": "p45",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-06 10:00",
+      "cuando": "2026-11-13 10:00",
       "tipo": "post7",
       "key": "p46",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-06 16:00",
+      "cuando": "2026-11-13 16:00",
       "tipo": "post7",
       "key": "p47",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-02 11:00",
+      "cuando": "2026-11-09 11:00",
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_sem2026-11-02_1_lun.jpg",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-03 11:00",
+      "cuando": "2026-11-10 11:00",
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_sem2026-11-02_2_mar.jpg",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-04 11:00",
+      "cuando": "2026-11-11 11:00",
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_sem2026-11-02_3_mie.jpg",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-05 11:00",
+      "cuando": "2026-11-12 11:00",
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_sem2026-11-02_4_jue.jpg",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     },
     {
-      "cuando": "2026-11-06 11:00",
+      "cuando": "2026-11-13 11:00",
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_sem2026-11-02_5_vie.jpg",
-      "publicado": false,
-      "pausado": true
+      "publicado": false
     }
   ]
 }
