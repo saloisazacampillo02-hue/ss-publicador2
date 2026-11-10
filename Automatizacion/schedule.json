@@ -1013,7 +1013,8 @@
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_sem2026-11-02_2_mar.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-11-10 11:00:24"
     },
     {
       "cuando": "2026-11-11 11:00",
