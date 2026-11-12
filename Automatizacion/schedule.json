@@ -1033,7 +1033,8 @@
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_sem2026-11-02_4_jue.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-11-12 11:00:25"
     },
     {
       "cuando": "2026-11-13 11:00",
