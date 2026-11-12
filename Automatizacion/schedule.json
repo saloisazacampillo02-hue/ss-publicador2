@@ -983,7 +983,8 @@
       "cuando": "2026-11-12 10:00",
       "tipo": "post7",
       "key": "p44",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-11-12 10:00:31"
     },
     {
       "cuando": "2026-11-12 16:00",
