@@ -1,7 +1,7 @@
 {
-  "activo": true,
+  "activo": false,
   "desde": "2026-11-16 00:00",
   "max_atraso_horas": 48,
   "privacidad": "SELF_ONLY",
-  "nota": "Mientras TikTok no apruebe la auditoría, solo se puede publicar en privado (SELF_ONLY). Cuando la aprueben, cambiar privacidad a PUBLIC_TO_EVERYONE."
+  "nota": "En pausa mientras TikTok revisa la app (enviada a revisión el 15 nov 2026). Al aprobarse: correr Herramientas/tiktok_tokens.py con las claves de Production, actualizar los 3 secretos TIKTOK_* en GitHub, poner privacidad PUBLIC_TO_EVERYONE, desde = fecha de activación y activo = true."
 }
