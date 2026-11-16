@@ -984,7 +984,11 @@
       "tipo": "post7",
       "key": "p44",
       "publicado": true,
-      "publicado_en": "2026-11-12 10:00:31"
+      "publicado_en": "2026-11-12 10:00:31",
+      "tiktok": {
+        "intentos": 1,
+        "ultimo_error": "2026-11-15 20:26 /post/publish/video/init/: unaudited_client_can_only_post_to_private_accounts Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
+      }
     },
     {
       "cuando": "2026-11-12 16:00",
