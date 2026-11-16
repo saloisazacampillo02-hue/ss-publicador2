@@ -25,6 +25,8 @@ jobs:
     steps:
       - name: Descargar el repo
         uses: actions/checkout@v4
+        with:
+          ref: main   # siempre la última versión (evita repetir lo que otra corrida ya publicó)
 
       - name: Preparar Python
         uses: actions/setup-python@v5
