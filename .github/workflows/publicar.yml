@@ -15,7 +15,7 @@ concurrency:
 jobs:
   publicar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     env:
       TZ: America/Bogota
       IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -32,10 +32,19 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependencias
-        run: pip install requests
+        run: pip install requests pynacl
 
       - name: Publicar lo pendiente y vencido
         run: python Automatizacion/run_scheduled.py
+
+      - name: Publicar videos en TikTok
+        if: always()
+        env:
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          GH_SECRETS_PAT: ${{ secrets.GH_SECRETS_PAT }}
+        run: python Automatizacion/tiktok_publish.py
 
       - name: Guardar el estado (solo schedule.json)
         if: always()
