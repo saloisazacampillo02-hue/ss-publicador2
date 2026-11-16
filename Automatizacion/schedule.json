@@ -987,7 +987,9 @@
       "publicado_en": "2026-11-12 10:00:31",
       "tiktok": {
         "intentos": 2,
-        "ultimo_error": "2026-11-15 20:30 /post/publish/video/init/: unaudited_client_can_only_post_to_private_accounts Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
+        "publish_id": "v_pub_file~v2-1.7708575879324174342",
+        "publicado": true,
+        "publicado_en": "2026-11-15 20:32:23"
       }
     },
     {
