@@ -170,7 +170,13 @@ def main():
     now = datetime.datetime.now()
 
     pendientes = []
+    prueba = conf.get("prueba")             # clave de un reel ya publicado en Instagram, para probar a mano
     for it in sched["items"]:
+        if prueba and it.get("tipo") == "post7" and it.get("key") == prueba:
+            tk = it.setdefault("tiktok", {})
+            if not tk.get("publicado") and tk.get("intentos", 0) < MAX_INTENTOS and it["key"] in p7:
+                pendientes.append((it, p7[it["key"]]))
+            continue
         if it.get("tipo") != "post7" or it.get("pausado") or it.get("tiktok_omitir"):
             continue
         piece = p7.get(it["key"])
