@@ -1116,7 +1116,8 @@
       "cuando": "2026-11-19 16:00",
       "tipo": "post7",
       "key": "p55",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-11-19 16:00:49"
     },
     {
       "cuando": "2026-11-20 10:00",
