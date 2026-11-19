@@ -1159,7 +1159,8 @@
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_sem2026-11-16_4_jue.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-11-19 11:00:45"
     },
     {
       "cuando": "2026-11-20 11:00",
