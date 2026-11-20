@@ -1169,7 +1169,8 @@
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_sem2026-11-16_5_vie.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-11-20 11:00:29"
     }
   ]
 }
