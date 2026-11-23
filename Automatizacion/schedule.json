@@ -1172,6 +1172,101 @@
       "archivo": "historia_sem2026-11-16_5_vie.jpg",
       "publicado": true,
       "publicado_en": "2026-11-20 11:00:29"
+    },
+    {
+      "cuando": "2026-11-23 10:00",
+      "tipo": "post7",
+      "key": "p58",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-23 16:00",
+      "tipo": "post7",
+      "key": "p59",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-24 10:00",
+      "tipo": "post7",
+      "key": "p60",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-24 16:00",
+      "tipo": "post7",
+      "key": "p61",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-25 10:00",
+      "tipo": "post7",
+      "key": "p62",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-25 16:00",
+      "tipo": "post7",
+      "key": "p63",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-26 10:00",
+      "tipo": "post7",
+      "key": "p64",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-26 16:00",
+      "tipo": "post7",
+      "key": "p65",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-27 10:00",
+      "tipo": "post7",
+      "key": "p66",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-27 16:00",
+      "tipo": "post7",
+      "key": "p67",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-23 11:00",
+      "tipo": "historia",
+      "modo": "tip",
+      "archivo": "historia_sem2026-11-23_1_lun.jpg",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-24 11:00",
+      "tipo": "historia",
+      "modo": "tip",
+      "archivo": "historia_sem2026-11-23_2_mar.jpg",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-25 11:00",
+      "tipo": "historia",
+      "modo": "tip",
+      "archivo": "historia_sem2026-11-23_3_mie.jpg",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-26 11:00",
+      "tipo": "historia",
+      "modo": "tip",
+      "archivo": "historia_sem2026-11-23_4_jue.jpg",
+      "publicado": false
+    },
+    {
+      "cuando": "2026-11-27 11:00",
+      "tipo": "historia",
+      "modo": "tip",
+      "archivo": "historia_sem2026-11-23_5_vie.jpg",
+      "publicado": false
     }
   ]
 }
