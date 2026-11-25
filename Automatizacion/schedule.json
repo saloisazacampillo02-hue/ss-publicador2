@@ -1259,7 +1259,8 @@
       "tipo": "historia",
       "modo": "tip",
       "archivo": "historia_sem2026-11-23_3_mie.jpg",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-11-25 11:00:36"
     },
     {
       "cuando": "2026-11-26 11:00",
