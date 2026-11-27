@@ -1233,7 +1233,8 @@
       "cuando": "2026-11-27 10:00",
       "tipo": "post7",
       "key": "p66",
-      "publicado": false
+      "publicado": true,
+      "publicado_en": "2026-11-27 10:00:35"
     },
     {
       "cuando": "2026-11-27 16:00",
